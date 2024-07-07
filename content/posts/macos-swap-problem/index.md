@@ -1,13 +1,14 @@
-+++
-categories = ["tech", "multimedia"]
-date = 2021-01-18T01:01:23Z
-description = ""
-draft = false
-slug = "macos-swap-problem"
-tags = ["tech", "multimedia"]
-title = "macOS swap problem"
+---
+categories: ["tech", "multimedia"]
+date: 2021-01-18T01:01:23Z
+description: ""
+draft: false
+slug: "macos-swap-problem"
+tags: ["tech", "multimedia"]
+title: "macOS swap problem"
 
-+++
+showHero: false
+---
 
 
 If you are owner of MacBook then you will know how much does macOS system swap. It's actually not that big dial these days since there is supper [fast](https://eclecticlight.co/2020/12/12/how-fast-is-the-ssd-inside-an-m1-mac/) SSD's that mac are equipted with. Now that may seemed like if there is fast disk then it's ok.

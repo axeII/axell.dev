@@ -1,5 +1,5 @@
 ---
-title: Why I Migrated from Ghost to Hugo and Cloudflare
+title: Why I Migrated my blog from Ghost to Hugo platform (and Cloudflare)
 date: 2023-12-23
 author: Akira
 slag: why-i-migrated-from-ghost-to-hugo-and-cloudflare

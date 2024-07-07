@@ -6,6 +6,7 @@ draft = false
 slug = "simplest-way-to-install-docker-compose"
 tags = ["tech"]
 title = "Best way to install of docker-compose"
+showHero = false
 
 +++
 

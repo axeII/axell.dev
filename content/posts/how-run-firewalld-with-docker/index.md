@@ -6,6 +6,8 @@ draft: false
 slug: "how-run-firewalld-with-docker"
 tags: ["sys admin", "devops"]
 title: "Firewalld doesn't go well with Docker"
+
+showHero: false
 ---
 
 `Firewalld` is a great project. It's a tool to control iptables rules (or the firewall in short). So basically, it's just a frontend while `iptables` (or ntftables today) is the backend. And it was made by the Red Hat company, so it's an open-source project (cool, right?).

@@ -5,6 +5,8 @@ draft = false
 slug = "simple-fix-for-macos-issue-with-nfs"
 title = "Simple fix for macOS issue with NFS"
 
+showHero = false
+
 +++
 
 

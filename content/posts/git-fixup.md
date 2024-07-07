@@ -6,6 +6,7 @@ draft: false
 slug: "how-to-fix-small-git-mistake-using-autosquash"
 tags: ["Software devlopment"]
 title: "Git: How to fixup small mistake (autosquash)"
+showHero: false
 ---
 
 
