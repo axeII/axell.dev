@@ -2,7 +2,7 @@
 # categories: ["sys admin", "devops"]
 date: 2021-05-16T17:26:48Z
 description: ""
-draft: false
+draft: true
 slug: "how-run-firewalld-with-docker"
 tags: ["sys admin", "devops"]
 title: "Firewalld doesn't go well with Docker"
