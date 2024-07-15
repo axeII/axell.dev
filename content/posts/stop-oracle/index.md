@@ -1,5 +1,5 @@
 ---
-title: "Stop Oracle Cloud powering off your VM on free tier."
+title: "Stop Oracle powering off your VM on free Oracle Cloud tier."
 date: 2023-04-28T00:09:53+02:00
 slag: "stop-oracle-cloud-powering-off-your-vm-on-free-tier"
 draft: false
