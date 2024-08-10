@@ -23,16 +23,9 @@ Before we get started, make sure you have the following:
 -  A Mac running macOS Big Sur or later.
 -  Homebrew installed on your system.
 
-## Step 0 Optional: Install Homebrew (If Not Already Installed)
-
-First step is pretty easy. If you don't have Homebrew installed on your system you have to install it. It makes the whole yabai deploying on your system much easier. Homebew is a package manager for macOS that makes it easy to install software. To simply install Homebrew, run the following command in your Terminal:
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
 
 ## Step 1: Install Yabai
-Now since Homebrew installed, you can easily install Yabai. Run the following command in your Terminal:
+Since Homebrew is installed (and to install homebrew please follow this guide [here](https://brew.sh)), you can easily install Yabai. Run the following command in your Terminal:
 
 ```bash
 brew install yabai
@@ -76,10 +69,10 @@ These are the features that won't work without disabled SIP:
 5.  Space Management: Automated creation and management of macOS spaces won't be fully functional.
 
 {{< alert >}}
-**Warning!** Remember, disabling SIP can be dangerous if you are not sure what you are doing. If you are an experienced user, this might be fine. However, please make sure to understand the risks before proceeding.
+**Warning!** Remember, disabling SIP can be dangerous if you are not sure what you are doing. If you are an experienced user, this might be fine. However, please make sure to understand the risks before disabling SIP.
 {{< /alert >}}
 
-To do this, follow these steps:
+To disable SIP, please follow these steps:
 
 1. Restart your Mac and hold down Command + R to enter Recovery Mode.
 2. Open Terminal from the Utilities menu.
@@ -110,23 +103,27 @@ sudo visudo -f /private/etc/sudoers.d/yabai
 <user> ALL=(root) NOPASSWD: sha256:<hash> <yabai> --load-sa
 ```
 
-And the finall piece you have to run this command:
+And the finall piece you have to run these commands:
 
 ```bash
 yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 sudo yabai --load-sa
 ```
+
+I am not sure exactly but this somehow allows Yabai to run with proper permissions to run some features that may not work without it. The yabai it self will work file but for example trying to create a new space will not work without this.
+
 The downside is that after every reboot you have to run this command. If you want to make it permanent you have to add this command to your startup scripts.
 
 ## Step 5: Restart Yabai to Apply Changes
 After setting up your configuration, restart Yabai to apply the changes:
 
 ```bash
-brew services start yabai
+yabai --restart-service
 ```
 
-
 ## Bonus: My yabairc config
+
+Feel free to copy and paste this configuration into your ~/.yabairc file:
 
 ```yaml
 # default layout (can be bsp, stack or float)
@@ -166,7 +163,7 @@ yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^Ice$" manage=off
 yabai -m rule --add app="^Mac Mouse Fix$" manage=off
 ```
-And here is the skhdrc file:
+And here is the skhdrc file, which you need to copy into the ~/.skhdrc file:
 
 ```yaml
 # change window focus within space
