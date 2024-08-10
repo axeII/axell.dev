@@ -23,7 +23,7 @@ Before we get started, make sure you have the following:
 -  A Mac running macOS Big Sur or later.
 -  Homebrew installed on your system.
 
-## Step 1: Install Homebrew (If Not Already Installed)
+## Step 0 Optional: Install Homebrew (If Not Already Installed)
 
 First step is pretty easy. If you don't have Homebrew installed on your system you have to install it. It makes the whole yabai deploying on your system much easier. Homebew is a package manager for macOS that makes it easy to install software. To simply install Homebrew, run the following command in your Terminal:
 
@@ -31,14 +31,14 @@ First step is pretty easy. If you don't have Homebrew installed on your system y
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Step 2: Install Yabai
+## Step 1: Install Yabai
 Now since Homebrew installed, you can easily install Yabai. Run the following command in your Terminal:
 
 ```bash
 brew install yabai
 ```
 
-## Step 3: Configure Accessibility API
+## Step 2: Configure Accessibility API
 To function correctly, Yabai requires accessibility permissions. Grant these permissions by running:
 
 ```bash
@@ -46,7 +46,7 @@ sudo yabai --install-sa
 ```
 Then, navigate to System Preferences > Security & Privacy > Privacy tab, and add Terminal (or your preferred terminal emulator) and Yabai to the list of applications allowed to control your Mac
 
-## Step 4: Create and Modify Yabai Configuration File
+## Step 3: Create and Modify Yabai Configuration File
 Create a configuration file for Yabai in your home directory:
 
 touch ~/.yabairc
@@ -64,7 +64,7 @@ chmod +x ~/.yabairc
 
 As the bonus I will provide my yabairc file at the end of this guide feel free to use it.
 
-## Step 5: Disabling SIP and additional configuration
+## Step 4: Disabling SIP and additional configuration
 Yabai requesires to disable SIP on all Macs to work properly. It works fine without it but you will be missing some key features.
 If you have an M series Mac, you may need to disable System Integrity Protection (SIP) to use Yabai.
 
@@ -76,7 +76,7 @@ These are the features that won't work without disabled SIP:
 5.  Space Management: Automated creation and management of macOS spaces won't be fully functional.
 
 {{< alert >}}
-**Warning!** Remeber that disabling SIP might be dangeours if you don't know what you are doing! For expereinced users this can be fine but please check the risks before you do it.
+**Warning!** Remember, disabling SIP can be dangerous if you are not sure what you are doing. If you are an experienced user, this might be fine. However, please make sure to understand the risks before proceeding.
 {{< /alert >}}
 
 To do this, follow these steps:
@@ -118,7 +118,7 @@ sudo yabai --load-sa
 ```
 The downside is that after every reboot you have to run this command. If you want to make it permanent you have to add this command to your startup scripts.
 
-## Step 6: Restart Yabai to Apply Changes
+## Step 5: Restart Yabai to Apply Changes
 After setting up your configuration, restart Yabai to apply the changes:
 
 ```bash
