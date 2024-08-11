@@ -25,7 +25,7 @@ Before we get started, make sure you have the following:
 
 
 ## Step 1: Install Yabai
-Since Homebrew is installed (and to install homebrew please follow this guide [here](https://brew.sh)), you can easily install Yabai. Run the following command in your Terminal:
+Since Homebrew is installed (and to install homebrew please follow this guide [here](https://brew.sh)), you can easily install Yabai by running the following command in your Terminal or other terminal like app:
 
 ```bash
 brew install yabai
