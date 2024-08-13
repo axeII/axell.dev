@@ -10,8 +10,6 @@ title: "How to install and configure Yabai on macOS in 2024"
 showHero: false
 ---
 
-# How to install and configure Yabai on macOS in 2024
-
 Finally, after a long time, I decided to install Yabai on my macOS system. Previously I was using some scripts to manage my windows, however for a long time I wanted to try Yabai. For those who don't know, Yabai is a tiling window manager for macOS. Together with  skhd, a hotkey daemon for macOS, it's a great combo to manage widows spaces on macOS. Also it's open-source project hosted on GitHub [here](https://github.com/koekeishiya/yabai).
 
 This is the way to install and configure Yabai on macOS as I did in July 2024.
