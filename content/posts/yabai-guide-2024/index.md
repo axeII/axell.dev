@@ -4,8 +4,8 @@ date: 2024-08-01T01:00:00Z
 description: "A comprehensive guide on how to install and configure Yabai on macOS in 2024."
 draft: false
 slug: "yabai-guide-2024"
-tags: ["macos", "Software-development"]
-title: "How to install the best i3-ish window manager on macOS in 2024"
+tags: ["macOS", "Software-development"]
+title: "How to install the best i3-ish window manager on macOS in 2024 and boost your productivity"
 
 showHero: false
 ---
