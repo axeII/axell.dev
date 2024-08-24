@@ -49,9 +49,9 @@ You are done but note again some features will not work with SIP enabled.
 
 ## I am not going back
 
-While SIP is a great security feature for most of the users, for me it's a deal breaker. I like yabai, I use it daily and for me it had boosted the productivity so much so I decied for now to keep using it with SIP disabled but to sacrifice all my iOS apps on M3 MacBook.
+While SIP is a great security feature for most users, for me it's a deal breaker. I like yabai, I use it daily, and for me, it has boosted productivity so much that I decided to keep using it with SIP disabled but to sacrifice all my iOS apps on my M3 MacBook.
 
-I still have some options. One is find a way to install these apps on mac with brew, use them as web apps as safari has option to export web app to desktop app or just use them on my iPhone/iPad. I will see what I will do but for now I am happy with my decision.
+I still have some options. One is find a way to install these apps on mac with brew, use them as web apps since Safari has the option to export a web app to a desktop app, or just use them on my iPhone/iPad. I will see what I will do, but for now, I am happy with my decision.
 
 ## Bonus
 
@@ -59,4 +59,4 @@ There is one option I did not try yet and that is to fully disable SIP. In my tr
 
 ---
 
-Good luck stranger if you found better way please reachme out. I would be happy to hear from you.
+Good luck, stranger. If you find a better way, please reach out to me. I would be happy to hear from you.
