@@ -42,7 +42,7 @@ Yes is that this processor has enough processing power that I had no problem run
 
 No is that AMD's graphic processors do have still some issues on Linux. So here you can Intel or Nvidia better choice. It's not perfect yet but I am sure AMD will issue these problems in near future. Another problem was with fan. There was firmware issue with fan that he was running either 0% or 100% of power. It was so annoying that this machine was for serveral second quiet and suddenly fan was running full power. Luckily company made a patch a BIOS update. And after this update everything was fine. I recommend to anyone be carefull with what you choose because it can be a board without future support with broken firmware can be useless.  Luckily for me thing went fine.
 
-![UDM Pro and server](images/image01.jpg "UDM Pro and server")
+![UDM Pro and server](https://img.axell.dev/homelab%3Aimage01.jpg "UDM Pro and server")
 
 Bolt as a single server machine was fine choice I think after a 1 of usage. But today I would go probably rather with server HW that would support IPMI or iLO or any similar technology.
 
