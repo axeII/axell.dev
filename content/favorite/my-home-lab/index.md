@@ -42,7 +42,7 @@ Yes is that this processor has enough processing power that I had no problem run
 
 No is that AMD's graphic processors do have still some issues on Linux. So here you can Intel or Nvidia better choice. It's not perfect yet but I am sure AMD will issue these problems in near future. Another problem was with fan. There was firmware issue with fan that he was running either 0% or 100% of power. It was so annoying that this machine was for serveral second quiet and suddenly fan was running full power. Luckily company made a patch a BIOS update. And after this update everything was fine. I recommend to anyone be carefull with what you choose because it can be a board without future support with broken firmware can be useless.  Luckily for me thing went fine.
 
-![UDM Pro and server](images/image01.jpg "UDM Pro and server")
+![UDM Pro and server](https://img.axell.dev/homelab%3Aimage01.jpg "UDM Pro and server")
 
 Bolt as a single server machine was fine choice I think after a 1 of usage. But today I would go probably rather with server HW that would support IPMI or iLO or any similar technology.
 
@@ -68,23 +68,23 @@ In my opinion, most NAS solution these days sucks. They have complicated UI. But
 
 This way I can have a software-controlled raid (which is better than hardware controlled one).  Raid is a great thing but remember it's not a backup!
 
-![QNAP DAS](images/image02.jpg "QNAP DAS")
+![QNAP DAS](https://img.axell.dev/homelab%3Aimage02.jpg "QNAP DAS")
 
 ## Issue 3: Network
 
 You need a network e.g. WIFI router to connect to the Internet for your server and for your home network. And that's it.
 
-![Work in progress](images/image03.webp "Work in progress")
+![Work in progress](https://img.axell.dev/homelab%3Aimage03.webp "Work in progress")
 
 _However_, you can go fancy like me and go with UDMP (Unifi dream machine pro). It is a network tool that is a switch, router, security gateway, and cloud key in one machine. Cool right!
 
-![work done](images/image04.webp "Finally work is done.")
+![work done](https://img.axell.dev/homelab%3Aimage04.webp "Finally work is done.")
 
 There are _soo_ many things you can do with this machine! For me using this machine was such a great boost. I can set up VLANs networks, I can control bandwidth for every AP, I can set up firewall rules, I can use DPI to control what network users are doing, I can block p2p, I can setup IPS to control security, I can set up honeypot in case someone does something funny.
 
 There is so much I can do with this machine and it's not that expensive for what it does. Give it try. I thought this was a perfect machine until something bad happened.
 
-![netowrk udmp](images/image05.png "Thanks to DPI one can easily manage the network.")
+![netowrk udmp](https://img.axell.dev/homelab%3Aimage05.png "Thanks to DPI one can easily manage the network.")
 
 In December 2020, company Ubiquiti was compromised thanks to one employee that who didn't set up 2FA for his AWS s3 cloud account. The whole s3 bucket, which allegedly contained all privates keys and more secure sensitive linked to every running UDM pro in the world, was _compromised_.
 
