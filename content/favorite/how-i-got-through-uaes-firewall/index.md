@@ -3,7 +3,6 @@
 date: 2019-10-14T23:32:27Z
 description: ""
 draft: false
-# image: "__GHOST_URL__/content/images/2021/07/firewall.png"
 slug: "how-i-got-through-uaes-firewall"
 tags: ["cyber security", "VPN", "networking", "firewall"]
 title: "How I bypassed UAE's firewall with an iPad & AWS on vacation"
@@ -22,7 +21,7 @@ And at that moment it was clear for me. I am in a country that blocks VPN. Wow. 
 
 _Damn._ Suddenly I was the victim of censorship. No free Internet. No movies, shows, or _porn_ (UAE's specialty).
 
-![meme](images/image01.jpg)
+![meme](https://img.axell.dev/uae%3Aimage01.jpg)
 
 
 Normally I would use SSH to connect home and I would just open or forward some ports. Hell, I could even try to create a SOCKS5 proxy tunnel to get through that damn firewall. But no. I forgot to save the public key ssh key of my shell in `allowed_hosts`.
@@ -78,7 +77,7 @@ You need to fill access key. That's `ss://` URL. Filling the address might be tr
 
 After you try to connect to Outline it asks you for permission to install a new VPN profile on your device. For iPad, it works like a VPN you can see the VPN logo in the top menu bar when you are connected. And at that moment I eagerly opened the browser and tried _pornhub.com_ (UAE blocks all porn sites) and I had finally **free** Internet.
 
-![meme2](images/image02.png)
+![meme2](https://img.axell.dev/uae%3Aimage02.png)
 
 ## End
 
