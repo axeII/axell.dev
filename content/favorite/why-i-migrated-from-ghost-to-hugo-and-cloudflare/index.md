@@ -7,9 +7,7 @@ tags: [Ghost, Hugo, Cloudflare]
 
 ---
 
-# Introduction
-
-In this post, I will share my experience and reasons for migrating my blog from the Ghost platform to Hugo and Cloudflare. I will discuss the benefits, challenges, and steps involved in the migration process. It's been a while I migrated my blog from Ghost to Hugo and Cloudflare. I wanted to share my experience and the reasons behind this decision. I hope this post will be helpful for others who are considering a similar migration.
+I would like to share my experience and reasons for migrating my blog from the Ghost platform to Hugo and Cloudflare. I will show you the benefits, challenges, and steps involved in the migration process I had. To be honest It's been a while I migrated my blog from Ghost to Hugo and Cloudflare but I wanted to share my experience and the reasons behind this decision to anyone who might be in the same position I was. I hope this post will be helpful for others who are considering a similar migration.
 
 ## Why Migrate?
 
@@ -71,46 +69,27 @@ Now that I had my hugo blog ready with the desine I liked I needed a way to simp
 
 There are many more option for this so if you are reading this this the way I did this but it's definately no the only way since hugo generates static html files you can deploy it almost everywhere you want:
 
-1. **GitHub Pages**
-   - Free for public repositories and easy to integrate with GitHub.
-   - Supports custom domains.
+| Service | Description |
+| --- | --- |
+| GitHub Pages | Free for public repositories and easy to integrate with GitHub. Supports custom domains. |
+| Netlify | Free tier available. Supports continuous deployment from Git repositories. Custom domain support. |
+| Vercel | Free tier available. Supports deployments from Git repositories. Custom domain support. |
+| Firebase Hosting | Free tier available. Custom domain support. |
+| Amazon S3 with CloudFront | Pay-as-you-go model. Highly customizable with global delivery via CloudFront. |
+| Render | Offers a free tier with a simple deployment process. Custom domain support. |
+| Surge.sh | Easy-to-use CLI tool. Free tier allows basic sites with limited custom domain support. |
 
-2. **Netlify**
-   - Free tier available.
-   - Supports continuous deployment from Git repositories.
-   - Custom domain support.
-
-3. **Vercel**
-   - Free tier available.
-   - Supports deployments from Git repositories.
-   - Custom domain support.
-
-4. **Firebase Hosting**
-   - Free tier available.
-   - Custom domain support.
-
-5. **Amazon S3 with CloudFront**
-   - Pay-as-you-go model.
-   - Highly customizable with global delivery via CloudFront.
-
-6. **Render**
-   - Offers a free tier with a simple deployment process.
-   - Custom domain support.
-
-7. **Surge.sh**
-   - Easy-to-use CLI tool.
-   - Free tier allows basic sites with limited custom domain support.
 
 Each of these services has different features and pricing models, so you can choose the one that best fits your needs. So there are quiet lot of choices today to choose from. Pick your own posion. 😇
 
 Anyway my choice was Cloudflare since I am already using it for other projects - making it an easy choice for my needs. Cloudflare pages was super easy to setup.
 
 I visited cloudflare.com. Found the pages settings under "Workers and Pages" on the left bar. Clicked on create new project.
-![fresh look](images/workpages.png "Click on create new project")
+![fresh look](https://img.axell.dev/hugo%3Aworkpages.png "Click on create new project")
 
 From there I clicked on "Pages" since all we need is pages settings. Here I had to login with the github account. The dialog will ask you which repository you want to use with your account. If you don't see the repository there then you need to firt all cloudflare to give access to your repositories. You can choose one specific repository.
 
-![repository](images/click.png "Choose the repository button that will guide you to the next step")
+![repository](https://img.axell.dev/hugo%3Aclick.png "Choose the repository button that will guide you to the next step")
 
 All that remains is to set up the build process, as Cloudflare should already have access to your repository. You need to configure the build command to run the Hugo build.
 
@@ -120,7 +99,7 @@ hugo --minify -t blowfish
 and set the output directory to `public`.
 
 
-![cloudflare](images/cloudflare.png "Build hugo settings")
+![cloudflare](https://img.axell.dev/hugo%3Acloudflare.png "Build hugo settings")
 
 Finally, set your custom domain (in my case, it was axell.dev). This was straightforward, maybe because I also use Cloudflare for the domain's DNS. And that's it. Once I push a commit to my repository, Cloudflare will automatically build and deploy the changes to my blog. This is a great way to automate the deployment process and keep the blog up-to-date with the latest changes.
 
