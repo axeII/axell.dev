@@ -27,6 +27,13 @@ If you disable SIP on your Mac, you can longer use these apps. Why? Because thes
 
 So in simple terms, when you disable SIP, you can't no longer use the iOS apps on your Mac.
 
+{{< alert >}}
+**Update!** 2024 September
+
+Another "great" suprise I found out is that after disabling SIP I can no longer use credit or debit cards using Apple Pay on my Mac. You get some you Mac is not secure enough message. Only way to use Apple Pay on Mac is to use your iPhone or iPad to authenticate the payment. This is another downside of disabling SIP on macOS.
+{{< /alert >}}
+
+
 ## Who to blame?
 
 In this case I blame Apple. I think it's very simple since they could create API endpoint to access the window manager to use 3rd party apps like Yabai to controll windows on macOS. Apple is well know for closing their ecosystem all the time but I think in this case user should be able to use their own. It's like choosing the default browser we uses should have free choice and not be forced to use the simple Apple way. It sucks that we have to use such a workaround just to use simple shortcuts to controll windows on macOS.
