@@ -7,8 +7,9 @@ image = "img/author.png"
 
 
 # headline = "DevOps engineer & Cyber Security enthusiast. "
-headline = "DevOps engineer @ KM"
-bio = "Humble engineer who loves Italian cuisine and self-hosted stuff ✨."
+headline = "DevOps Engineer @ KM"
+# headline = "DevOps Engineer @ KM | IT Consultant"
+bio = "DevOps Engineer passionate about Italian cuisine and self-hosted solutions ✨"
 links = [
     { github = "https://github.com/axeII" },
     { mastodon = "https://infosec.exchange/@axell" },
