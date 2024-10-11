@@ -25,12 +25,8 @@ heroStyle: "background"
 {{< typeit
   speed=18
 >}}
-I began my journey at Kiwi.com as an intern on the platform team, where I managed GitLab and CI/CD processes for the entire organization. Collaborating closely with the security and DevOps teams gave lot of experience.
+Started as an intern managing GitLab and CI/CD at Kiwi.com. Returned to my career after completing a master's degree at university. Worked as a Python engineer, but after a few years, found my way back to DevOps.
 
-I took a temporary break to complete my master's degree in IT and Economics. After graduation, I started as a backend Python engineer but eventually found my way back to DevOps.
-
-I take great pleasure in working with tools like Kubernetes, although it can be challenging at times 🤣. I'm also passionate about security and sometimes participate in Capture the Flag (CTF) challenges. In my free time, I play with my home lab project https://github.com/axeII/home-ops, where I am practicing Infrastructure as Code (IaC) and GitOps methodologies.
-
-Currently, I am a DevOps engineer at KM company. My daily job is to take care of cloud, git pipelines and flow, and at last make sure that from security perspective everything is in place.
+Currently a DevOps engineer at KM company, handling cloud, Git pipelines, and security. Enjoy working with Kubernetes (although it can be challenging sometimes 🤣). Maintain a home lab project for IaC and GitOps practice and occasionally break the home network🚨.
 {{< /typeit >}}
 <!-- This blog is open sourced here: https://github.com/axeII/my-blog -->
