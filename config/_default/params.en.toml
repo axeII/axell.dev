@@ -14,7 +14,6 @@ highlightCurrentMenuArea = true
 autoSwitchAppearance = false
 defaultAppearance = "dark"
 
-mainSections = ['favorite']
 
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
@@ -26,7 +25,7 @@ smartTOCHideUnfocusedChildren = false
   layout = "custom"
   colorScheme = "avocado"
   showRecent = true
-  showRecentItems = 6
+  showRecentItems = 3
   cardView = true
   showMoreLink = true
   showMoreLinkDest = '/posts'

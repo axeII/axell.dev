@@ -53,23 +53,15 @@
       </div>
   </div>
 </article>
+{{ $favoriteArticles := 3 }}
+<h2 class="mt-8 text-2xl font-extrabold mb-10">Popular</h2>
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  {{ range first $favoriteArticles (where .Site.RegularPages "Type" "in" "favorite") }}
+  {{ partial "article-link/card.html" . }}
+  {{ end }}
+</section>
 <section>
-  {{ $recentArticles := 5 }}
-  {{ $showMoreLinkDest := "/posts" }}
-  <!-- <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "shortcode.recent_articles" | emojify }}</h2> -->
-  <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-    {{ range first $recentArticles (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)).Pages }}
-    {{ partial "article-link/card.html" . }}
-    {{ end }}
-  </section>
-  <div class="mt-10 flex justify-center">
-    <a href="{{ $showMoreLinkDest }}">
-      <button
-        class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">
-        {{ i18n "recent.show_more" | markdownify | emojify }}
-      </button>
-    </a>
-  </div>
+  {{ partial "recent-articles/main.html" . }}
 </section>
 {{ if .Site.Params.homepage.layoutBackgroundBlur | default false }}
 <div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
