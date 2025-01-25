@@ -27,6 +27,6 @@ heroStyle: "background"
 >}}
 Started as an intern managing GitLab and CI/CD at Kiwi.com. Returned to my career after completing a master's degree at university. Worked as a Python engineer, but after a few years, found my way back to DevOps.
 
-Currently a DevOps engineer at KM company, handling cloud, Git pipelines, and security. Enjoy working with Kubernetes (although it can be challenging sometimes 🤣). Maintain a home lab project for IaC and GitOps practice and occasionally break the home network🚨.
+Currently a DevOps engineer at Capital Markets Gateway company, handling kubernetes clusters (AKS), infrastrastructure (terraform) and pipelines (Github). Enjoy working with Kubernetes. In my free time I maintain project called HomeOps (IaC and GitOps practice) and occasionally break network at home 😱.
 {{< /typeit >}}
 <!-- This blog is open sourced here: https://github.com/axeII/my-blog -->
