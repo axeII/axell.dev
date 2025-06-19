@@ -2,8 +2,7 @@ title = ""
 
 [author]
 name = "Alesh Lerch"
-image = "img/author.png"
-
+image = "img/author.jpg"
 
 
 # headline = "DevOps engineer & Cyber Security enthusiast. "
@@ -11,7 +10,7 @@ headline = "DevOps Engineer @ CMG"
 # headline = "DevOps Engineer @ KM | IT Consultant"
 bio = "DevOps Engineer passionate about Italian cuisine and self-hosted solutions ✨"
 links = [
-    { github = "https://github.com/axeII" },
-    { mastodon = "https://infosec.exchange/@axell" },
-    { linkedin = "https://www.linkedin.com/in/ales-lerch" }
+  { github = "https://github.com/axeII" },
+  { mastodon = "https://infosec.exchange/@axell" },
+  { linkedin = "https://www.linkedin.com/in/ales-lerch" },
 ]
