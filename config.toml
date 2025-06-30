@@ -1,7 +1,7 @@
-baseURL = 'https://axell.dev/'
+baseURL = 'https://blog.axell.dev/'
 theme = "blowfish"
 languageCode = 'en-us'
-title = 'axell.dev'
+title = 'blog.axell.dev'
 
 enableRobotsTXT = true
 paginate = 18
