@@ -54,7 +54,7 @@ For my new hugo blog I went again for theme hunting. I found a theme that was cl
 Adding this theme was super easy. I just followed the guide which was just to git clone this project to `themes` folder. Then setup the blowfish repo as git submodule since I wated to make it easy to deploy. Then I just had to add the theme to my `config.toml` file and I was done.
 
 ```toml
-baseURL = 'https://axell.dev/'
+baseURL = 'https://blog.axell.dev/'
 theme = "blowfish"
 languageCode = 'en-us'
 ...
