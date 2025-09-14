@@ -1,10 +1,10 @@
 ---
-# categories: ["Software devlopment", "tech", "multimedia"]
+# categories: ["Software development", "tech", "multimedia"]
 date: 2021-06-24T22:10:10Z
 description: ""
 draft: false
 slug: "netlifx-on-macos"
-tags: ["Software devlopment", "tech", "multimedia"]
+tags: ["Software development", "tech", "multimedia"]
 title: "Netflix on macOS"
 ---
 
@@ -14,7 +14,7 @@ I try to google how to fix this problem as always and found a tool that can help
 
 ## Nativefier
 
-In case you never heard before about `nativefier`. It is a command-line tool to easily create a desktop app for any web site with minimal configuration. Basically ala electron app but not in brower but in app. For netflix it's much for me easier to have it in sepearate app than browser.
+In case you never heard before about `nativefier`. It is a command-line tool to easily create a desktop app for any web site with minimal configuration. Basically ala electron app but not in browser but in app. For netflix it's much for me easier to have it in separate app than browser.
 
 {{< github repo="nativefier/nativefier" >}}
 
