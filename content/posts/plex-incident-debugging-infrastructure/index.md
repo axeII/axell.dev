@@ -12,8 +12,7 @@ Last week, Plex announced a security [incident](https://forums.plex.tv/t/importa
 
 ## The Wake-Up Call
 
-The Plex incident was a stark reminder that even established services can be compromised. When I received the email with the instructions, I knew it was time to thoroughly check my own setup. Check any activity and do security audit if everything is correctly configured and no suspicious activity on the network can be found. As a self-hoster, you are responsible for your own security and monitoring. Let's dive into it:
-
+The Plex incident was a reminder that even well secured services can be compromised. When I received the email with the instructions, I knew it was time to check any activity and do security audit if everything is correctly configured and no suspicious activity on the network can be found. As a self-hoster, you are responsible for your own security and monitoring. Let's dive into it:
 
 ## The Investigation Begins
 
@@ -35,9 +34,9 @@ My first instinct was to check my monitoring stack to see if there had been any 
 
 ### Step 1: Grafana Logs Analysis
 
-I started by checking my Grafana dashboard, which aggregates logs from all my services. Almost immediately, I noticed something odd: there were strange connections happening consistently around ~3-9 AM. These connections stood out because they occurred during hours when I knew no one in my household was using Plex. Btw when I studied the issue more, I found that this is know bug on cloudflare side that some connection are not closed properly please see this github issue for more info: https://github.com/cloudflare/cloudflared/issues/1300. 
+I started by checking my Grafana dashboard, which aggregates logs from all my services running on kubernetes including the plex. Almost immediately, I noticed something odd: there were strange connections happening consistently around ~3-9 AM. These connections stood out because they occurred during hours when I knew no one in my household was using Plex. Btw when I studied the issue more, I found that this is known bug on cloudflare side that some connection are not closed properly please see this github issue for more info: https://github.com/cloudflare/cloudflared/issues/1300. 
 
-Anyway the patterns were regular and predictable, which made them even more suspicious. Legitimate user traffic tends to be sporadic and varies based on viewing habits, but these connections had an almost mechanical consistency to them.
+Anyway the pattern was clear, they are happening during the suspicious ours of ~3-9 AM, which is not a time when anyone in my friend/family list would be actively using Plex. This was the first red flag. Also the connections had consistent pattern like someone was scanning my instance.
 
 ![grafana logs](https://img.axell.dev/plex%3Agrafana.webp "Grafana logs showing suspicious connections")
 
@@ -49,7 +48,7 @@ This ruled out legitimate user activity and confirmed that something else was ma
 
 Since I use Cloudflare Tunnel to expose my Plex server without opening ports on my router (a security best practice I highly recommend), my next step was to examine the tunnel logs. Cloudflare Tunnel is fantastic because it creates a secure outbound connection from my network to Cloudflare's edge, eliminating the need for port forwarding.
 
-In the Cloudflare dashboard, I could see traffic patterns that correlated with the suspicious connections I'd found in Grafana. Importantly, all the IP addresses were from Cloudflare's infrastructure, which was expected since all traffic routes through their network first.
+In the Cloudflare dashboard, I could see traffic patterns that looked the same as the suspicious connections I'd found in Grafana. Importantly, all the IP addresses were from Cloudflare's infrastructure, which was expected since all traffic routes through their network first.
 
 #### The Cloudflare Admin Panel Deep Dive
 
@@ -59,7 +58,7 @@ This is where things got interesting. Digging deeper into the Cloudflare admin p
 
 #### The Culprit Revealed
 
-After correlating the IP addresses and doing some detective work, I discovered the source of the mysterious connections: my friend's Plex server.
+After the long investigation I finally discovered the source of the mysterious connections: my friend's Plex server.
 
 It turns out that several years ago, we had connected our Plex servers together for fun - probably to share libraries or test some features. This is a legitimate Plex feature that allows server owners to share content with each other. However, we had both completely forgotten about this connection, and it had been quietly running in the background ever since.
 
@@ -73,7 +72,7 @@ This incident taught me several valuable lessons about infrastructure management
 
 ### 1. Regular Auditing is Essential
 
-Even seemingly innocent configurations can become security concerns over time. What started as a fun experiment years ago became a forgotten connection that looked suspicious during a security review.
+Even simple configurations that don't look suspicious can become security concerns over time. What started as a fun experiment years ago became a forgotten connection that looked suspicious during a security review.
 
 ### 2. Documentation Matters
 
@@ -81,7 +80,7 @@ If we had properly documented our server connection experiment, this investigati
 
 ### 3. Monitoring Pays Off
 
-Having comprehensive monitoring (Grafana + Tautulli) made it possible to quickly identify and investigate the suspicious activity. Without these tools, I might never have noticed the pattern.
+Having strong monitoring (Grafana stack + Tautulli) tools made it possible to quickly identify and investigate the suspicious activity. Without these, I might never have noticed the pattern or what's going on.
 
 ---
 
@@ -124,7 +123,7 @@ While the Plex security incident was concerning, it served as an excellent remin
 
 The ability to quickly trace connections through my entire stack - from Grafana logs to Cloudflare analytics - gave me confidence that my infrastructure is both secure and observable. For anyone self-hosting Plex or similar services, I can't emphasize enough how important it is to have this kind of visibility into your systems.
 
-Self-hosting gives you control and privacy, but it also comes with responsibility. Incidents like these remind us that we need to be proactive about security and monitoring. With the right tools and practices, you can have both the benefits of self-hosting and the peace of mind that comes with knowing your infrastructure is secure and well-monitored.
+Self-hosting gives you control and privacy, but it also comes with responsibility. Incidents like these should remind us that we need to be proactive about security and monitoring. With the right tools and practices, you can have both the benefits of self-hosting and the peace of mind that comes with knowing your infrastructure is secure and well-monitored.
 
 You may think you are safe but I recommend to asking your self that: _"If this service get's compromised, then what kind of permission will the attacker get and what kind of data will they get access to"_? 
 
