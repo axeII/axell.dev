@@ -34,13 +34,13 @@ The first problem was - which hardware to go with. I could go with Raspberry pi 
 
 _Mmmm_
 
-Honestly at the time I was working on this project AMD was on hype. Of course I would fell for such thing and that's why I made chioce with the Udoo BOLT V8 (link is [here](https://duckduckgo.com/?t=ffab&q=udoo+bolt+v8+&ia=web)). Brand is Bolt and it has nothing to do with audi v8 _haha._  I could go with intel who had bad PR or with AMD Ryzen. Bolt wasn't just any computer. It was the only SBC (single board computer) at the on market what used AMD processors with Vega graphics. I though that cool let's go with it. Nothing bad can happen.
+Honestly at the time I was working on this project AMD was on hype. Of course I would fell for such thing and that's why I made choice with the Udoo BOLT V8 (link is [here](https://duckduckgo.com/?t=ffab&q=udoo+bolt+v8+&ia=web)). Brand is Bolt and it has nothing to do with audi v8 _haha._  I could go with intel who had bad PR or with AMD Ryzen. Bolt wasn't just any computer. It was the only SBC (single board computer) at the on market what used AMD processors with Vega graphics. I though that cool let's go with it. Nothing bad can happen.
 
 Was it a good option? Yes and no. It's complicated.
 
 Yes is that this processor has enough processing power that I had no problem running all my services so far I do host without any problem and it's not that power-hungry.
 
-No is that AMD's graphic processors do have still some issues on Linux. So here you can Intel or Nvidia better choice. It's not perfect yet but I am sure AMD will issue these problems in near future. Another problem was with fan. There was firmware issue with fan that he was running either 0% or 100% of power. It was so annoying that this machine was for serveral second quiet and suddenly fan was running full power. Luckily company made a patch a BIOS update. And after this update everything was fine. I recommend to anyone be carefull with what you choose because it can be a board without future support with broken firmware can be useless.  Luckily for me thing went fine.
+No is that AMD's graphic processors do have still some issues on Linux. So here you can Intel or Nvidia better choice. It's not perfect yet but I am sure AMD will issue these problems in near future. Another problem was with fan. There was firmware issue with fan that he was running either 0% or 100% of power. It was so annoying that this machine was for several second quiet and suddenly fan was running full power. Luckily company made a patch a BIOS update. And after this update everything was fine. I recommend to anyone be careful with what you choose because it can be a board without future support with broken firmware can be useless.  Luckily for me thing went fine.
 
 ![UDM Pro and server](https://img.axell.dev/homelab%3Aimage01.jpg "UDM Pro and server")
 
