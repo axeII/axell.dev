@@ -1,5 +1,5 @@
 ---
-date: 2025-9-14T10:30:00Z
+date: 2025-09-14T10:30:00Z
 description: "How I debugged suspicious Plex connections using Grafana, Tautulli, and Cloudflare Tunnel after the recent security incident"
 draft: false
 slug: "plex-incident-debugging-infrastructure"
