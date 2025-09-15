@@ -1,5 +1,5 @@
 ---
-date: 2024-12-19T10:30:00Z
+date: 2025-9-14T10:30:00Z
 description: "How I debugged suspicious Plex connections using Grafana, Tautulli, and Cloudflare Tunnel after the recent security incident"
 draft: false
 slug: "plex-incident-debugging-infrastructure"
@@ -36,7 +36,7 @@ My first instinct was to check my monitoring stack to see if there had been any 
 
 I started with my Grafana dashboard, which aggregates logs from all services running on Kubernetes — including Plex. Almost immediately, something looked off: connections were happening regularly between ~3–9 AM. That’s a unlike play time for my friends or family to use my Plex instance.
 
-> Worth noting: there’s a known Cloudflare Tunnel quirk where some connections aren’t closed properly (see: https://github.com/cloudflare/cloudflared/issues/1300), but the pattern here was too consistent to ignore.
+> Worth noting: there’s a known Cloudflare Tunnel isue where some connections aren’t closed properly (see: https://github.com/cloudflare/cloudflared/issues/1300), but the pattern here was too consistent to ignore.
 
 The timing was the first red flag. The connections also had a repeatable signature — it almost looked like someone was probing the instance.
 
