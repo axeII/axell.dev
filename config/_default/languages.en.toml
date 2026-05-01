@@ -5,12 +5,9 @@ name = "Alesh Lerch"
 image = "img/author.jpg"
 
 
-# headline = "DevOps engineer & Cyber Security enthusiast. "
-headline = "DevOps Engineer @ CMG"
-# headline = "DevOps Engineer @ KM | IT Consultant"
-bio = "DevOps Engineer, also climber and helldiver"
+headline = "DevOps/SRE Engineer @ CMG"
+bio = "DevOps/SRE Engineer"
 links = [
   { github = "https://github.com/axeII" },
-  { mastodon = "https://infosec.exchange/@axell" },
   { linkedin = "https://www.linkedin.com/in/ales-lerch" },
 ]

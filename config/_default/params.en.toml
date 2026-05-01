@@ -9,10 +9,9 @@ secondaryLogo = "img/logo.png"
 showRelatedContent = true
 relatedContentLimit = 3
 
-defaultBackgroundImage = "img/bg.svg"
 highlightCurrentMenuArea = true
-autoSwitchAppearance = false
-defaultAppearance = "dark"
+autoSwitchAppearance = true
+defaultAppearance = "light"
 
 
 smartTOC = true
@@ -22,14 +21,13 @@ smartTOCHideUnfocusedChildren = false
   layout = "fixed-fill-blur"
 
 [homepage]
-  layout = "custom"
-  colorScheme = "avocado"
+  layout = "card"
   showRecent = true
   showRecentItems = 3
   cardView = true
   showMoreLink = true
   showMoreLinkDest = '/posts'
-  # cardViewScreenWidth = true
+  cardViewScreenWidth = true
 
 [article]
   showHero = true
