@@ -1,10 +1,9 @@
 ---
 title: How I helped company to improve stability of low-cost AKS clusters
-draft: false
+draft: true
 date: 2025-12-07
 tags: [Kubernetes, AKS, Stability, DevOps]
 
-# showHero: false
 ---
 
 # Introduction
@@ -26,5 +25,9 @@ Let's dive in.
 ## Chapter 3: Tains and tolerations
 
 ## Chapter 4: Applying the changes and monitoring results
+
+The most important part as in develping software is to test and monottor new changes.
+
+In k8s world is the same. What can look good in theory, can fail in practice. For that reason I before actually appling it to the clusters and did several series of tests to to make sure this will work.
 
 ## Conclusion
