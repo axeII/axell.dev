@@ -6,7 +6,7 @@
 
 ![logo](./assets/img/git-logo.png.png)
 
-Blog is available at [axell.dev](https://blog.axell.dev).
+Blog is available at [blog.axell.dev](https://blog.axell.dev).
 
 </div>
 
