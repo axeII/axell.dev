@@ -1,12 +1,12 @@
 <script>
-    (function () {
-        // Swap to animated SVG on non-Firefox browsers when page uses the default background
-        // (i.e. hero2.jpg). Articles with their own feature image keep that image.
-        if (navigator.userAgent.indexOf("Firefox") === -1) {
-            var bg = document.getElementById("background-image");
-            if (bg && bg.src && bg.src.indexOf("hero2") !== -1) {
-                bg.src = "/img/bg.svg";
-            }
-        }
-    })();
+  (function () {
+    // Swap to animated SVG on non-Firefox browsers when page uses the default background
+    // (i.e. hero2.jpg). Articles with their own feature image keep that image.
+    if (navigator.userAgent.indexOf("Firefox") === -1) {
+      var bg = document.getElementById("background-image");
+      if (bg && bg.src && bg.src.indexOf("hero2") !== -1) {
+        bg.src = "/img/bg.svg";
+      }
+    }
+  })();
 </script>
