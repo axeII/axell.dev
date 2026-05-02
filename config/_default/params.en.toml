@@ -6,6 +6,7 @@ enableCodeCopy = true
 logo = "img/logo_inverted.png"
 secondaryLogo = "img/logo.png"
 defaultBackgroundImage = "img/walp.jpg"
+disableTextInHeader = true
 
 showRelatedContent = true
 relatedContentLimit = 3
