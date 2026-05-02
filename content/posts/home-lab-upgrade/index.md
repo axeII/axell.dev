@@ -1,14 +1,13 @@
 ---
 date: 2022-02-02T23:46:00Z
-description: ""
+description: "Home lab upgrade with UniFi Switch 16 PoE, WiFi 6 access points, and improved network coverage."
 draft: false
 slug: "my-home-lab-upgrade"
 tags: ["tech", "sys admin"]
-series: ["home-lab"]
+categories: ["tech", "sys admin"]
 series_order: 2
 title: "My home lab: Upgrade"
 
-showHero: false
 ---
 
 ## Leak

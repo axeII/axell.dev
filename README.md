@@ -4,7 +4,7 @@
 
 ### My blog
 
-![logo](./axell.png)
+![logo](./assets/img/git-logo.png.png)
 
 Blog is available at [axell.dev](https://blog.axell.dev).
 

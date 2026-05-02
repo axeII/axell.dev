@@ -1,12 +1,11 @@
 ---
-# categories: ["multimedia", "Software devlopment"]
+categories: ["multimedia", "Software development"]
 date: 2020-12-06T01:00:15Z
-description: ""
+description: "How to use AppleScript to automate removing all cookies from Safari and protect your privacy from tracking."
 draft: false
 slug: "apple-script-to-remove-all-cookies-from-safari"
-tags: ["multimedia", "Software devlopment"]
+tags: ["multimedia", "Software development"]
 title: "Apple script to remove all cookies from safari"
-showHero: false
 ---
 
 In the vast landscape of the internet, cookies hold a hidden power: they can track and identify users, raising concerns about privacy. Deleting cookies periodically is important for taking control over your online identity and protecting personal information. Let's take a look how to delete cookies from your browser which can give back your privacy.

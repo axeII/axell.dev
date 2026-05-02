@@ -1,9 +1,8 @@
 +++
 categories = ["multimedia"]
 date = 2019-04-09T11:37:00Z
-description = ""
+description = "Why Apple's 2016 switch to USB-C-only MacBooks was premature and the peripheral ecosystem wasn't ready."
 draft = false
-image = "__GHOST_URL__/content/images/2019/07/CASA-USB-C-6-Port-Hub-780x390.jpg"
 slug = "macbooks-switch-tousb-c-was-too-fast"
 tags = ["multimedia"]
 title = "Switch to USB-C came too early on Macs"
@@ -29,7 +28,7 @@ There are several problems. This device is great until you forget one at home. L
 
 You get the idea.
 
-{{< figure src="__GHOST_URL__/content/images/2019/07/satechi-multi-port-hub-cropped.jpg" >}}
+
 
 Also don't forget that buy quite expensive MacBook which, however to be able to use, with other tools like external monitor, you need usb hub. Yes there are monitors these day that do support USB-C for video out but they are also expesive and usualy when you visit other location (since you have an laptop), there is not very high chance they will have USB-C output for you Macbook.
 

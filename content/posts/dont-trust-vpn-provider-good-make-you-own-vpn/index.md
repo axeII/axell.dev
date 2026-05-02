@@ -1,7 +1,7 @@
 ---
-# categories: ["pinned", "sys admin", "devops"]
+categories: ["pinned", "sys admin", "devops"]
 date: 2020-02-29T14:22:00Z
-description: ""
+description: "Why you shouldn't blindly trust commercial VPN providers and how to set up your own VPN on a cloud server using Ansible."
 draft: false
 # image: "__GHOST_URL__/content/images/2021/07/security.webp"
 slug: "dont-trust-vpn-provider-good-make-you-own-vpn"

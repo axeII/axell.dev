@@ -1,8 +1,10 @@
 ---
 date: 2021-12-29T01:52:45Z
-description: ""
+description: "How I discovered an unauthorized Ethereum miner running on a company GPU VM and traced the culprit through forensic log analysis."
 draft: false
 slug: "how-i-caught-crypto-miner-on-company-servers"
+tags: ["security", "cyber security", "devops"]
+categories: ["tech", "cyber security"]
 title: "How I caught crypto miner on company servers"
 ---
 

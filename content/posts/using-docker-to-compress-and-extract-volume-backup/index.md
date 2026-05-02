@@ -1,8 +1,10 @@
 ---
 date: 2022-12-08T18:38:21Z
-description: ""
+description: "How to use Docker context and a temporary container to remotely copy, compress, and extract Docker volume backups."
 draft: false
 slug: "using-docker-to-compress-and-extract-volume-backup"
+tags: ["Docker", "devops", "sys admin"]
+categories: ["tech", "devops"]
 title: "Using docker to compress and extract volume backup"
 ---
 

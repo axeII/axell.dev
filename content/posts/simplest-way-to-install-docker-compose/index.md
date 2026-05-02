@@ -1,12 +1,11 @@
 +++
 categories = ["tech"]
 date = 2020-10-01T14:45:00Z
-description = ""
+description = "Comparing pip install vs direct binary download for getting the latest docker-compose version."
 draft = false
 slug = "simplest-way-to-install-docker-compose"
 tags = ["tech"]
 title = "Best way to install of docker-compose"
-showHero = false
 
 +++
 

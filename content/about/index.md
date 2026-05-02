@@ -9,7 +9,7 @@ showDateUpdated : false
 showHeadingAnchors : false
 showPagination : false
 showReadingTime : false
-showTableOfContents : true
+showTableOfContents : false
 showTaxonomies : false
 showWordCount : false
 showSummary : false
@@ -22,11 +22,24 @@ layoutBackgroundHeaderSpace: false
 heroStyle: "background"
 ---
 
-{{< typeit
-  speed=18
->}}
-Started as an intern managing GitLab and CI/CD at Kiwi.com. Returned to my career after completing a master's degree at university. Worked as a Python engineer, but after a few years, found my way back to DevOps.
+## Background
 
-Currently a DevOps engineer at Capital Markets Gateway company, handling kubernetes clusters (AKS), infrastrastructure (terraform) and pipelines (Github). Enjoy working with Kubernetes. In my free time I maintain project called HomeOps (IaC and GitOps practice) and occasionally break network at home 😱.
-{{< /typeit >}}
-<!-- This blog is open sourced here: https://github.com/axeII/my-blog -->
+Started as an intern managing GitLab and CI/CD pipelines at [Kiwi.com](https://kiwi.com). After finishing a master's degree I came back as a Python engineer, but eventually found my way back to infrastructure — which is where I belong.
+
+## Currently
+
+DevOps/SRE engineer at [Capital Markets Gateway](https://cmgfi.com), where I work on:
+
+- **Kubernetes** — managing AKS clusters at scale
+- **Infrastructure as Code** — Terraform for cloud provisioning
+- **CI/CD** — GitHub Actions pipelines for engineering teams
+
+## Side Projects
+
+In my free time I maintain **[HomeOps](https://github.com/axeII/home-ops)** — a fully GitOps-managed home lab running on Kubernetes. It's where I experiment with things before they're mainstream (and occasionally break my home network 😱).
+
+## This Blog
+
+I write about DevOps, infrastructure, macOS, home labs, and security. Posts tend to be practical — things I actually ran into and had to figure out. The blog itself is [open source](https://github.com/axeII/axell.dev).
+
+Btw if you are on Firefox you will see the background image made by **Damir Babacic** from [here](https://unsplash.com/@onemorephoto). I highly recommend to check out his work, it's amazing. Why the photo is only visible on Firefox? It's becase of Firefox's SMIL engine simply can't handle smooth bubbles animations 😢 (it's a known long-standing performance gap).

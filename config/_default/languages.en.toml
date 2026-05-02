@@ -1,16 +1,18 @@
-title = ""
+locale = "en"
+title = "blog.axell.dev"
 
-[author]
-name = "Alesh Lerch"
+[params]
+displayName = "English"
+isoCode = "en"
+dateFormat = "2 January 2006"
+description = "Writing about DevOps, infrastructure, home labs, and macOS."
+
+[params.author]
+name = "Ales Lerch"
 image = "img/author.jpg"
-
-
-# headline = "DevOps engineer & Cyber Security enthusiast. "
-headline = "DevOps Engineer @ CMG"
-# headline = "DevOps Engineer @ KM | IT Consultant"
-bio = "DevOps Engineer, also climber and helldiver"
+headline = "DevOps/SRE Engineer @ CMG"
+bio = "Writing about DevOps/SRE, infrastructure, home labs, and the occasional deep dive into macOS stuff."
 links = [
   { github = "https://github.com/axeII" },
-  { mastodon = "https://infosec.exchange/@axell" },
   { linkedin = "https://www.linkedin.com/in/ales-lerch" },
 ]

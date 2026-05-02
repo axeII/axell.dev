@@ -1,13 +1,12 @@
 ---
-# categories: ["multimedia", "Software devlopment"]
+categories: ["multimedia", "Software development"]
 date: 2024-08-24T01:00:00Z
 description: "The unpleasant surprise after disabling SIP on macOS"
 draft: false
 slug: "unpleasant-suprise-after-i-disabled-sip-macos"
-tags: ["macOS", "Software-development"]
+tags: ["macOS", "Software development"]
 title: "The unpleasant surprise I discovered after I disabled SIP on macOS"
 
-showHero: false
 ---
 
 So if you read my blog, recently I decied to give a go to Yabai. For those who don't know Yabai is a tiling window manager for macOS controlled with super usefull shortcuts. Feel free to read more about my post here: [Yabai - tiling window manager for macOS](/posts/yabai-guide-2024).

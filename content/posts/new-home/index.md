@@ -1,7 +1,7 @@
 ---
-# categories: ["devops", "sys admin", "tech"]
+categories: ["devops", "sys admin", "tech"]
 date: 2019-07-12T01:59:10Z
-description: ""
+description: "Migrating the blog to Google GCP for learning cloud infrastructure and the value of self-hosting."
 draft: false
 # image: "__GHOST_URL__/content/images/2019/07/23460076133_6ddf426916_k.jpg"
 slug: "new-home"
