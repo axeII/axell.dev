@@ -1,10 +1,10 @@
 ---
-# categories: ["Software devlopment"]
+categories: ["Software development"]
 date: 2021-01-21T01:43:00Z
 description: ""
 draft: false
 slug: "how-to-fix-small-git-mistake-using-autosquash"
-tags: ["Software devlopment"]
+tags: ["Software development"]
 title: "Git: How to fixup small mistake (autosquash)"
 ---
 

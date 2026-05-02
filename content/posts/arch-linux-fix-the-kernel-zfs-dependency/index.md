@@ -3,6 +3,8 @@ date: 2022-11-08T16:13:40Z
 description: ""
 draft: false
 slug: "arch-linux-fix-the-kernel-zfs-dependency"
+tags: ["Linux", "ZFS", "sys admin"]
+categories: ["tech", "sys admin"]
 title: "Arch Linux fix the kernel ZFS dependency"
 ---
 

@@ -1,5 +1,5 @@
 ---
-# categories: ["tech", "sys admin"]
+categories: ["tech", "sys admin"]
 date: 2021-07-02T23:46:00Z
 description: ""
 draft: false

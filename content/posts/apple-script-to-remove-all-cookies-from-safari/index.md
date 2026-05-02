@@ -1,10 +1,10 @@
 ---
-# categories: ["multimedia", "Software devlopment"]
+categories: ["multimedia", "Software development"]
 date: 2020-12-06T01:00:15Z
 description: ""
 draft: false
 slug: "apple-script-to-remove-all-cookies-from-safari"
-tags: ["multimedia", "Software devlopment"]
+tags: ["multimedia", "Software development"]
 title: "Apple script to remove all cookies from safari"
 ---
 

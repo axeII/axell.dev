@@ -4,6 +4,7 @@ description: "How I debugged suspicious Plex connections using Grafana, Tautulli
 draft: false
 slug: "plex-incident-debugging-infrastructure"
 tags: ["home-lab", "plex", "security", "cloudflare", "grafana", "tautulli"]
+categories: ["tech", "cyber security"]
 title: "Debugging Suspicious Plex Connections: A Deep Dive Into My Self-Hosted Infrastructure"
 ---
 

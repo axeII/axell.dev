@@ -1,5 +1,5 @@
 ---
-# categories: ["devops", "sys admin", "tech"]
+categories: ["devops", "sys admin", "tech"]
 date: 2019-07-12T01:59:10Z
 description: ""
 draft: false

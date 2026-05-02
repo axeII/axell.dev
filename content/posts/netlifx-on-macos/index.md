@@ -1,5 +1,5 @@
 ---
-# categories: ["Software development", "tech", "multimedia"]
+categories: ["Software development", "tech", "multimedia"]
 date: 2021-06-24T22:10:10Z
 description: ""
 draft: false

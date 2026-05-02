@@ -1,5 +1,5 @@
 ---
-# categories: ["pinned", "cyber security"]
+categories: ["pinned", "cyber security"]
 date: 2019-10-14T23:32:27Z
 description: ""
 draft: false

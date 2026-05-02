@@ -1,8 +1,10 @@
 ---
-date :  2021-10-12T15:52:00Z
-draft :  false
-slug :  "use-touchid-for-sudo-in-terminal-instead-of-password"
-title :  "Use Touch ID for sudo in terminal or tmux instead of password"
+date: 2021-10-12T15:52:00Z
+draft: false
+slug: "use-touchid-for-sudo-in-terminal-instead-of-password"
+tags: ["macOS", "terminal"]
+categories: ["tech"]
+title: "Use Touch ID for sudo in terminal or tmux instead of password"
 ---
 
 

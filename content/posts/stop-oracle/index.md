@@ -1,9 +1,10 @@
 ---
 title: "Stop Oracle powering off your VM on free Oracle Cloud tier."
 date: 2023-04-28T00:09:53+02:00
-slag: "stop-oracle-cloud-powering-off-your-vm-on-free-tier"
+slug: "stop-oracle-cloud-powering-off-your-vm-on-free-tier"
 draft: false
-
+tags: ["Oracle Cloud", "cloud", "devops"]
+categories: ["tech", "devops"]
 ---
 
 Oracle Cloud Infrastructure (OCI) Free Tier is an excellent option for developers and small businesses to test and deploy applications on the cloud without incurring significant costs. However, the Free Tier has specific resource limits and usage restrictions that you should be aware of, especially when it comes to virtual machines (VMs).

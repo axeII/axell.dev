@@ -4,7 +4,7 @@ description: ""
 draft: false
 slug: "my-home-lab-upgrade"
 tags: ["tech", "sys admin"]
-series: ["home-lab"]
+categories: ["tech", "sys admin"]
 series_order: 2
 title: "My home lab: Upgrade"
 

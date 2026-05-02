@@ -1,5 +1,5 @@
 ---
-# categories: ["sys admin", "devops"]
+categories: ["sys admin", "devops"]
 date: 2021-05-16T17:26:48Z
 description: ""
 draft: true

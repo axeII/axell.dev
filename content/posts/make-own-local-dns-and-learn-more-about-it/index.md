@@ -1,5 +1,5 @@
 ---
-# categories: ["tech", "pinned", "sys admin"]
+categories: ["tech", "pinned", "sys admin"]
 date: 2019-08-05T21:19:53Z
 description: ""
 draft: false

@@ -1,5 +1,5 @@
 ---
-# categories: ["pinned", "sys admin", "devops"]
+categories: ["pinned", "sys admin", "devops"]
 date: 2020-02-29T14:22:00Z
 description: ""
 draft: false

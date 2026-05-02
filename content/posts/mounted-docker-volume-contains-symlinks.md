@@ -3,7 +3,7 @@ date: 2021-02-18T23:21:02Z
 description: ""
 draft: true
 slug: "mounted-docker-volume-contains-symlinks"
-tags: ["Software devlopment", "devops", "sys admin"]
+tags: ["Software development", "devops", "sys admin"]
 title: "Mounted docker volume contains symlinks"
 
 ---
