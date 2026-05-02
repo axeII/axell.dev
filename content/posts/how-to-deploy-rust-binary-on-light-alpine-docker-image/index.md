@@ -1,5 +1,6 @@
 ---
 title: How to Deploy a Rust Binary on a Light Alpine Docker Image
+description: "Why Rust binaries fail on Alpine with 'not found' and how to fix it by compiling with musl for static linking."
 draft: false
 date: 2024-05-24
 tags: [Rust, Docker, Alpine]

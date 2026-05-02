@@ -2,6 +2,7 @@
 title: "Stop Oracle powering off your VM on free Oracle Cloud tier."
 date: 2023-04-28T00:09:53+02:00
 slug: "stop-oracle-cloud-powering-off-your-vm-on-free-tier"
+description: "How to prevent Oracle Cloud from automatically shutting down idle free-tier VMs using a simple stress cron job."
 draft: false
 tags: ["Oracle Cloud", "cloud", "devops"]
 categories: ["tech", "devops"]

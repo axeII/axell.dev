@@ -1,6 +1,6 @@
 +++
 date = 2021-11-10T17:04:00Z
-description = ""
+description = "Quick fix for macOS NFS mount failures by setting the correct NFS version in nfs.conf."
 draft = false
 slug = "simple-fix-for-macos-issue-with-nfs"
 tags = ["macOS", "NFS", "sys admin"]

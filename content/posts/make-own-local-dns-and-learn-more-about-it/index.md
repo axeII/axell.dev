@@ -1,7 +1,7 @@
 ---
 categories: ["tech", "pinned", "sys admin"]
 date: 2019-08-05T21:19:53Z
-description: ""
+description: "Tutorial on setting up a local DNS resolver using BIND on Linux, covering DNS theory and practical configuration."
 draft: false
 # image: "__GHOST_URL__/content/images/2019/08/k9i75izpuq531.jpg"
 slug: "make-own-local-dns-and-learn-more-about-it"

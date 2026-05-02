@@ -3,6 +3,7 @@ title: Why I Migrated my blog from Ghost to Hugo platform (and Cloudflare)
 date: 2023-12-23
 draft: false
 slug: why-i-migrated-from-ghost-to-hugo-and-cloudflare
+description: "Why I migrated from Ghost to Hugo and Cloudflare Pages — cost, performance, maintenance, and GitOps deployment."
 tags: [Ghost, Hugo, Cloudflare]
 categories: ["tech", "devops"]
 

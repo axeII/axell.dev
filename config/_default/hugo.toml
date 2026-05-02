@@ -10,6 +10,8 @@ summaryLength = 30
 buildDrafts = false
 buildFuture = false
 
+mainSections = ["posts"]
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 

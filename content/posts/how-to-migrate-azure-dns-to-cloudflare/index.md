@@ -1,6 +1,6 @@
 +++
 date = 2022-04-14T10:50:56Z
-description = ""
+description = "Step-by-step guide for exporting DNS records from Azure DNS and importing them into Cloudflare."
 draft = false
 slug = "how-to-migrate-azure-dns-to-cloudflare"
 tags = ["Azure", "Cloudflare", "DNS", "devops"]

@@ -43,10 +43,10 @@ smartTOCHideUnfocusedChildren = false
   showAuthorsBadges = true
   showSummary = true
   showReadingTime = true
-  showComments = true
+  showComments = false
   showTaxonomies = true
   showEdit = true
-  editURL = "https://github.com/axeii/my-blog/tree/main/content"
+  editURL = "https://github.com/axeII/axell.dev/tree/main/content"
   editAppendPath = true
 
 [list]
@@ -70,16 +70,16 @@ smartTOCHideUnfocusedChildren = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showTableOfContents = true
 
 [term]
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showTableOfContents = true
   groupByYear = false
   cardViewScreenWidth = false

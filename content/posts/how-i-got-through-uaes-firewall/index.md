@@ -1,7 +1,7 @@
 ---
 categories: ["pinned", "cyber security"]
 date: 2019-10-14T23:32:27Z
-description: ""
+description: "How I bypassed UAE's DPI-based VPN blocking while on vacation in Dubai using just an iPad and AWS."
 draft: false
 slug: "how-i-got-through-uaes-firewall"
 tags: ["cyber security", "VPN", "networking", "firewall"]

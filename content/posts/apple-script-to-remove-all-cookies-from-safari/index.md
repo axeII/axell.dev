@@ -1,7 +1,7 @@
 ---
 categories: ["multimedia", "Software development"]
 date: 2020-12-06T01:00:15Z
-description: ""
+description: "How to use AppleScript to automate removing all cookies from Safari and protect your privacy from tracking."
 draft: false
 slug: "apple-script-to-remove-all-cookies-from-safari"
 tags: ["multimedia", "Software development"]

@@ -1,7 +1,7 @@
 +++
 categories = ["multimedia"]
 date = 2019-04-09T11:37:00Z
-description = ""
+description = "Why Apple's 2016 switch to USB-C-only MacBooks was premature and the peripheral ecosystem wasn't ready."
 draft = false
 slug = "macbooks-switch-tousb-c-was-too-fast"
 tags = ["multimedia"]

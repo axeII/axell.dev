@@ -1,7 +1,7 @@
 ---
 categories: ["Software development", "tech", "multimedia"]
 date: 2021-06-24T22:10:10Z
-description: ""
+description: "How to create a native-like Netflix desktop app on macOS using the Nativefier command-line tool."
 draft: false
 slug: "netlifx-on-macos"
 tags: ["Software development", "tech", "multimedia"]

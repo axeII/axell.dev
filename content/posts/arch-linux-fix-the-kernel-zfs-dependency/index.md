@@ -1,6 +1,6 @@
 ---
 date: 2022-11-08T16:13:40Z
-description: ""
+description: "How to fix the ZFS kernel dependency error on Arch Linux that blocks system package updates."
 draft: false
 slug: "arch-linux-fix-the-kernel-zfs-dependency"
 tags: ["Linux", "ZFS", "sys admin"]

@@ -1,7 +1,7 @@
 ---
 categories: ["tech", "multimedia"]
 date: 2021-01-18T01:01:23Z
-description: ""
+description: "How macOS aggressively swaps memory and writes a RAM-sized sleep image to SSD, and how to disable it."
 draft: false
 slug: "macos-swap-problem"
 tags: ["tech", "multimedia"]
