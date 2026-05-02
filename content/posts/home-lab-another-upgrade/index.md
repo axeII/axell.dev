@@ -8,7 +8,6 @@ series: ["home-lab"]
 series_order: 3
 title: "My home lab: Another upgrade"
 
-showHero: false
 ---
 
 

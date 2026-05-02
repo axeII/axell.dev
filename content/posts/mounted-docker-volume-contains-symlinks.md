@@ -6,7 +6,6 @@ slug: "mounted-docker-volume-contains-symlinks"
 tags: ["Software devlopment", "devops", "sys admin"]
 title: "Mounted docker volume contains symlinks"
 
-showHero: false
 ---
 
 

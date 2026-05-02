@@ -8,7 +8,6 @@ series: ["home-lab"]
 series_order: 2
 title: "My home lab: Upgrade"
 
-showHero: false
 ---
 
 ## Leak

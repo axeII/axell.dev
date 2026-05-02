@@ -5,13 +5,14 @@ enableCodeCopy = true
 
 logo = "img/logo_inverted.png"
 secondaryLogo = "img/logo.png"
+defaultBackgroundImage = "img/hero2.jpg"
 
 showRelatedContent = true
 relatedContentLimit = 3
 
 highlightCurrentMenuArea = true
 autoSwitchAppearance = true
-defaultAppearance = "light"
+defaultAppearance = "dark"
 
 
 smartTOC = true
@@ -21,7 +22,8 @@ smartTOCHideUnfocusedChildren = false
   layout = "fixed-fill-blur"
 
 [homepage]
-  layout = "card"
+  layout = "background"
+  homepageImage = "img/hero2.jpg"
   showRecent = true
   showRecentItems = 3
   cardView = true
@@ -32,7 +34,7 @@ smartTOCHideUnfocusedChildren = false
 [article]
   showHero = true
   showAuthor = true
-  heroStyle = "basic"
+  heroStyle = "background"
   showBreadcrumbs = true
   showTableOfContents = true
   showRelatedContent = true

@@ -5,7 +5,6 @@ draft: false
 slug: "plex-incident-debugging-infrastructure"
 tags: ["home-lab", "plex", "security", "cloudflare", "grafana", "tautulli"]
 title: "Debugging Suspicious Plex Connections: A Deep Dive Into My Self-Hosted Infrastructure"
-showHero: false
 ---
 
 Last week, Plex announced a security [incident](https://forums.plex.tv/t/important-notice-of-security-incident/930523) where their user database was compromised, forcing everyone to log out — including server connections. As someone who self-hosts a Plex instance that’s publicly reachable (no VPN in front), this grabbed my attention. Beyond the Reddit threads and confusion, it was a good oportunity to audit my infrastructure. In this post, I’ll walk through how I autdit my Plex server and chased down some weird connections to my Plex server using Grafana, Tautulli, and Cloudflare Tunnel.

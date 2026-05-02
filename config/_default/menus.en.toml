@@ -16,7 +16,7 @@
 
 [[main]]
   name = "About"
-  pageRef = "https://axell.dev"
+  pageRef = "about"
   weight = 30
 
 [[main]]
