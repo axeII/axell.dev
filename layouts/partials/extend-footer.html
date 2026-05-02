@@ -1,0 +1,12 @@
+<script>
+    (function () {
+        // Only swap to animated SVG on non-Firefox browsers
+        // Firefox has poor SMIL animation performance in SVGs
+        if (navigator.userAgent.indexOf("Firefox") === -1) {
+            var bg = document.getElementById("background-image");
+            if (bg && bg.closest(".fixed")) {
+                bg.src = "/img/bg.svg";
+            }
+        }
+    })();
+</script>

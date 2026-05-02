@@ -41,3 +41,5 @@ In my free time I maintain **[HomeOps](https://github.com/axeII/home-ops)** — 
 ## This Blog
 
 I write about DevOps, infrastructure, macOS, home labs, and security. Posts tend to be practical — things I actually ran into and had to figure out. The blog itself is [open source](https://github.com/axeII/axell.dev).
+
+Btw if you are on Firefox you will see the background image made by **Damir Babacic** from [here](https://unsplash.com/@onemorephoto). I highly recommend to check out his work, it's amazing. Why the photo is only visible on Firefox? It's becase of Firefox's SMIL engine simply can't handle smooth bubbles animations 😢 (it's a known long-standing performance gap).

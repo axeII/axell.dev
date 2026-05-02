@@ -29,7 +29,7 @@ smartTOCHideUnfocusedChildren = false
   cardView = true
   showMoreLink = true
   showMoreLinkDest = '/posts'
-  cardViewScreenWidth = true
+  cardViewScreenWidth = false
 
 [article]
   showHero = true
