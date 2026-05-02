@@ -5,7 +5,7 @@ enableCodeCopy = true
 
 logo = "img/logo_inverted.png"
 secondaryLogo = "img/logo.png"
-defaultBackgroundImage = "img/hero2.jpg"
+defaultBackgroundImage = "img/walp.jpg"
 
 showRelatedContent = true
 relatedContentLimit = 3
@@ -23,7 +23,7 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "background"
-  homepageImage = "img/hero2.jpg"
+  homepageImage = "img/walp.jpg"
   showRecent = true
   showRecentItems = 3
   cardView = true
