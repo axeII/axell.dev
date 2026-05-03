@@ -1,8 +1,15 @@
 <script>
   (function () {
-    // Swap to animated SVG on non-Firefox browsers when page uses the default background
-    // (i.e. walp.jpg). Articles with their own feature image keep that image.
-    if (navigator.userAgent.indexOf("Firefox") === -1) {
+    // Swap to animated SVG only on non-touch desktop screens.
+    // - maxTouchPoints === 0: reliable across all browsers and simulators
+    // - hover + pointer: secondary check for touch-capable laptops (Surface etc.)
+    // - innerWidth > 1024: hard screen-size cutoff
+    // - not Firefox: Firefox struggles with SVG animation perf
+    var noTouch = navigator.maxTouchPoints === 0;
+    var isDesktop = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+    var isLargeScreen = window.innerWidth > 1024;
+    var isFirefox = navigator.userAgent.indexOf("Firefox") !== -1;
+    if (noTouch && isDesktop && isLargeScreen && !isFirefox) {
       var bg = document.getElementById("background-image");
       if (bg && bg.src && bg.src.indexOf("walp") !== -1) {
         bg.src = "/img/bg.svg";
