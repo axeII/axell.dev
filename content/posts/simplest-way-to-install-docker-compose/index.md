@@ -29,7 +29,7 @@ There is way more better way to install it.
 
 ### Option 2: curl (no dependency)
 
-This  method has great advantege that you don't have to install python3 or pip and you get the lastest version. All you need are tools all distros have alraedy have preinstalled. `curl`
+This  method has great advantege that you don't have to install python3 or pip and you get the latest version. All you need are tools all distros have already have preinstalled. `curl`
 
 Here is a quite long command:
 

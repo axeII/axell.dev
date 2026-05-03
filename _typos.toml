@@ -8,6 +8,10 @@ extend-ignore-re = [
 [default.extend-words]
 # Project-specific terms
 drozd = "drozd"
+# AKS = Azure Kubernetes Service (cloud platform acronym)
+AKS = "AKS"
+# Sur = macOS Big Sur (Apple OS version name)
+Sur = "Sur"
 
 [files]
 extend-exclude = [

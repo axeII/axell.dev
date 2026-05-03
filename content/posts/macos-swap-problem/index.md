@@ -49,6 +49,6 @@ I highly recommend not deleting swap files. It's not worth it. You can lose data
 
 ---
 
-_Note: Testing was done on a MacBook Air 2017 with 8GB RAM_
+Note: Testing was done on a MacBook Air 2017 with 8GB RAM
 
 Sources: "[https://apple.stackexchange.com/questions/50235/what-i-can-delete-from-private-var-vm/115748](https://apple.stackexchange.com/questions/50235/what-i-can-delete-from-private-var-vm/115748)"

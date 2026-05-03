@@ -8,7 +8,7 @@ categories: ["tech", "cyber security"]
 title: "Debugging Suspicious Plex Connections: A Deep Dive Into My Self-Hosted Infrastructure"
 ---
 
-Last week, Plex announced a security [incident](https://forums.plex.tv/t/important-notice-of-security-incident/930523) where their user database was compromised, forcing everyone to log out — including server connections. As someone who self-hosts a Plex instance that’s publicly reachable (no VPN in front), this grabbed my attention. Beyond the Reddit threads and confusion, it was a good oportunity to audit my infrastructure. In this post, I’ll walk through how I autdit my Plex server and chased down some weird connections to my Plex server using Grafana, Tautulli, and Cloudflare Tunnel.
+Last week, Plex announced a security [incident](https://forums.plex.tv/t/important-notice-of-security-incident/930523) where their user database was compromised, forcing everyone to log out — including server connections. As someone who self-hosts a Plex instance that’s publicly reachable (no VPN in front), this grabbed my attention. Beyond the Reddit threads and confusion, it was a good opportunity to audit my infrastructure. In this post, I’ll walk through how I autdit my Plex server and chased down some weird connections to my Plex server using Grafana, Tautulli, and Cloudflare Tunnel.
 
 ## The Wake-Up Call
 
@@ -85,6 +85,7 @@ Even simple, harmless configs can age into problems. What started as a fun exper
 ---
 
 ## Self‑Hosting: What I Actually Recommend
+
 If you run Plex (or anything similar) at home, here’s what’s worked well for me:
 
 - Use Cloudflare Tunnel instead of open ports. It’s free, removes the need for port forwarding, and gives you helpful logs and analytics.
@@ -96,6 +97,7 @@ If you run Plex (or anything similar) at home, here’s what’s worked well for
 ---
 
 ## Conclusion
+
 The Plex incident was a good reminder to audit my setup. The “suspicious” connections turned out to be harmless — a long‑forgotten server share — but the investigation proved the value of visibility.
 
 Being able to trace connections end‑to‑end (Grafana logs → Cloudflare analytics) made it easy to gain confidence in the setup. If you self‑host, invest a little in observability and you’ll sleep better.

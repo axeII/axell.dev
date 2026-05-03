@@ -10,10 +10,9 @@ title: "Apple script to remove all cookies from safari"
 
 In the vast landscape of the internet, cookies hold a hidden power: they can track and identify users, raising concerns about privacy. Deleting cookies periodically is important for taking control over your online identity and protecting personal information. Let's take a look how to delete cookies from your browser which can give back your privacy.
 
-
 ## The script
 
-Here is short apple script for deleting cookies. Just copy and paste this into `Script Editor.app`. Then save this as application. Named it e.g: `CleanCookies.app`. Move this app to `~/Application` or `/Applications`. After that all you need is to call this app from Spotlight. From there you can enjoy yoru web browser from tracking cookies.
+Here is short apple script for deleting cookies. Just copy and paste this into `Script Editor.app`. Then save this as application. Named it e.g: `CleanCookies.app`. Move this app to `~/Application` or `/Applications`. After that all you need is to call this app from Spotlight. From there you can enjoy your web browser from tracking cookies.
 
 ```AppleScript
 tell application "Safari"

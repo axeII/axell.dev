@@ -23,7 +23,6 @@ _Damn._ Suddenly I was the victim of censorship. No free Internet. No movies, sh
 
 ![meme](https://img.axell.dev/uae%3Aimage01.jpg)
 
-
 Normally I would use SSH to connect home and I would just open or forward some ports. Hell, I could even try to create a SOCKS5 proxy tunnel to get through that damn firewall. But no. I forgot to save the public key ssh key of my shell in `allowed_hosts`.
 
 I would like to note that all I had was my iPad and on iOS it's very complicated to forward ports or use socks5. I think I found some app for this specific. However, I decided to give up on ssh solution to get out.

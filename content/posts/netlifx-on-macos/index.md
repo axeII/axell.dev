@@ -8,7 +8,7 @@ tags: ["Software development", "tech", "multimedia"]
 title: "Netflix on macOS"
 ---
 
-Recently I decided to try Netflix. Before Netflix I was pirating movies and tv shows everyday (I still do today) but I though let's give it chance. Firt thing I noticed and I was very surprised that **native** app for the mac doesn't exist.
+Recently I decided to try Netflix. Before Netflix I was pirating movies and tv shows everyday (I still do today) but I though let's give it chance. First thing I noticed and I was very surprised that **native** app for the mac doesn't exist.
 
 I try to google how to fix this problem as always and found a tool that can help.
 
@@ -23,6 +23,7 @@ My other surprise was that I could not find any simple tutorial how to setup Net
 ## What do you need?
 
 There is not that much needed:
+
 - nativefier (Can be installed via homebrew)
 - python3 (To sign the app)
 - Netflix icon (Credit and link for the gorgeos icon.
@@ -99,6 +100,6 @@ python3 -m castlabs_evs.vmp sign-pkg ./Netflix-darwin-arm64
 
 _But why I have to sign the app?_ Well if you don't sign Netflix app build via _nativefier_ you will not be able to play any stream. Yeah it kind of sucks but I get why Netflix does this. Anyway app is already there you can try to open it and see it for you self that when you click on any show or movie you will get error.
 
-🎉 you finnaly have netflix app on mac. Now which show to watch first?
+🎉 you finally have netflix app on mac. Now which show to watch first?
 
 <!-- ![Final app]("images/featured.webp") -->

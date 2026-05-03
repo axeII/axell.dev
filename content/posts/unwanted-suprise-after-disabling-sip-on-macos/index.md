@@ -9,16 +9,16 @@ title: "The unpleasant surprise I discovered after I disabled SIP on macOS"
 
 ---
 
-So if you read my blog, recently I decied to give a go to Yabai. For those who don't know Yabai is a tiling window manager for macOS controlled with super usefull shortcuts. Feel free to read more about my post here: [Yabai - tiling window manager for macOS](/posts/yabai-guide-2024).
+So if you read my blog, recently I decided to give a go to Yabai. For those who don't know Yabai is a tiling window manager for macOS controlled with super useful shortcuts. Feel free to read more about my post here: [Yabai - tiling window manager for macOS](/posts/yabai-guide-2024).
 
 Now to be able to use the full potential of Yabai, I had to disable SIP (System Integrity Protection) on macOS. This is a security feature that protects the system from malicious software. It's a good thing to have it enabled, but for some software like Yabai, you need to disable it (Yabai needs it so it can control windows and other stuff with Dock system app).
 And after disabling the SIP I discovered the unpleasant surprise.
 
 ## The unpleasant surprise
 
-It's very high chance that same as me you have the Mac or Macbook with M chip inside. These machines and great, powerfull and engergy efficient. Great thing about them is that they use same CPU architecture as iPhone and iPad. This means that you can run iOS apps on your Mac. There are few apps I use are actually iOS apps ported to mac. That can be very usefull let's say for app like pushover, which is iOS app that I use for notifications on my Mac. If I use it on my Mac, I pay only for subscription that I use for iOS/iPadOS devices. So it's a win-win situation.
+It's very high chance that same as me you have the Mac or Macbook with M chip inside. These machines and great, powerful and energy efficient. Great thing about them is that they use same CPU architecture as iPhone and iPad. This means that you can run iOS apps on your Mac. There are few apps I use are actually iOS apps ported to mac. That can be very useful let's say for app like pushover, which is iOS app that I use for notifications on my Mac. If I use it on my Mac, I pay only for subscription that I use for iOS/iPadOS devices. So it's a win-win situation.
 
-_However_
+However
 
 If you disable SIP on your Mac, you can longer use these apps. Why? Because these iOS Apps are encrypted by FairPlay, which requires the Secure Enclave to decrypt the executable before running. Problem is, the Secure Enclave is the same processor that enforces SIP and it refuses to decrypt unless SIP is disabled.
 
@@ -29,13 +29,12 @@ So in simple terms, when you disable SIP, you can't no longer use the iOS apps o
 {{< alert >}}
 **Update!** 2024 September
 
-Another "great" suprise I found out is that after disabling SIP I can no longer use credit or debit cards using Apple Pay on my Mac. You get some you Mac is not secure enough message. Only way to use Apple Pay on Mac is to use your iPhone or iPad to authenticate the payment. This is another downside of disabling SIP on macOS.
+Another "great" surprise I found out is that after disabling SIP I can no longer use credit or debit cards using Apple Pay on my Mac. You get some you Mac is not secure enough message. Only way to use Apple Pay on Mac is to use your iPhone or iPad to authenticate the payment. This is another downside of disabling SIP on macOS.
 {{< /alert >}}
-
 
 ## Who to blame?
 
-In this case I blame Apple. I think it's very simple since they could create API endpoint to access the window manager to use 3rd party apps like Yabai to controll windows on macOS. Apple is well know for closing their ecosystem all the time but I think in this case user should be able to use their own. It's like choosing the default browser we uses should have free choice and not be forced to use the simple Apple way. It sucks that we have to use such a workaround just to use simple shortcuts to controll windows on macOS.
+In this case I blame Apple. I think it's very simple since they could create API endpoint to access the window manager to use 3rd party apps like Yabai to control windows on macOS. Apple is well know for closing their ecosystem all the time but I think in this case user should be able to use their own. It's like choosing the default browser we uses should have free choice and not be forced to use the simple Apple way. It sucks that we have to use such a workaround just to use simple shortcuts to control windows on macOS.
 
 Hopefully in the future we will see some changes in this area as Apple seems to be more open to changes in their OS to make it more choices in their [products](https://www.theregister.com/2024/08/24/apple_eu_browser_defaults/)
 
@@ -45,7 +44,7 @@ It's true that you can use Yabai with SIP enabled. However you will not be able 
 
   1. Uninstall yabai and skhd: `brew uninstall yabai skhd`
   2. Poweroff your Mac and if you have macbook with M chip just hold the power button for 10 seconds
-  3. Click on options and after loging your account open Terminal.app
+  3. Click on options and after logging into your account open Terminal.app
   4. Run the following command: `csrutil enable`
   5. Reboot your Mac
   6. Install yabai and skhd again: `brew install yabai skhd`

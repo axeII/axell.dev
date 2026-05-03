@@ -17,11 +17,11 @@ This is the way to install and configure Yabai on macOS as I did in July 2024.
 
 Before we get started, make sure you have the following:
 
--  A Mac running macOS Big Sur or later.
--  Homebrew installed on your system.
-
+- A Mac running macOS Big Sur or later.
+- Homebrew installed on your system.
 
 ## Step 1: Install Yabai
+
 Since Homebrew is installed (and to install homebrew please follow this guide [here](https://brew.sh)), you can easily install Yabai by running the following command in your Terminal or other terminal like app:
 
 ```bash
@@ -29,17 +29,21 @@ brew install yabai
 ```
 
 ## Step 2: Configure Accessibility API
+
 To function correctly, Yabai requires accessibility permissions. Grant these permissions by running:
 
 ```bash
 sudo yabai --install-sa
 ```
+
 Then, navigate to System Preferences > Security & Privacy > Privacy tab, and add Terminal (or your preferred terminal emulator) and Yabai to the list of applications allowed to control your Mac
 
 ## Step 3: Create and Modify Yabai Configuration File
+
 Create a configuration file for Yabai in your home directory:
 
 touch ~/.yabairc
+
 Edit the configuration file with your preferred editor. Here's a basic configuration to get you started:
 
 ```bash
@@ -55,15 +59,17 @@ chmod +x ~/.yabairc
 As the bonus I will provide my yabairc file at the end of this guide feel free to use it.
 
 ## Step 4: Disabling SIP and additional configuration
+
 Yabai requesires to disable SIP on all Macs to work properly. It works fine without it but you will be missing some key features.
 If you have an M series Mac, you may need to disable System Integrity Protection (SIP) to use Yabai.
 
 These are the features that won't work without disabled SIP:
-1.  Window Insertion: Inserting windows into specific locations on the grid won't be possible.
-2.  Focus Follows Mouse: The "focus follows mouse" feature won't work without SIP being disabled.
-3.  Borderless Fullscreen Windows: True borderless fullscreen windows may not function correctly.
-4.  Moving Windows to Another Display: You may not be able to move windows easily between displays without SIP adjustments.
-5.  Space Management: Automated creation and management of macOS spaces won't be fully functional.
+
+1. Window Insertion: Inserting windows into specific locations on the grid won't be possible.
+2. Focus Follows Mouse: The "focus follows mouse" feature won't work without SIP being disabled.
+3. Borderless Fullscreen Windows: True borderless fullscreen windows may not function correctly.
+4. Moving Windows to Another Display: You may not be able to move windows easily between displays without SIP adjustments.
+5. Space Management: Automated creation and management of macOS spaces won't be fully functional.
 
 {{< alert >}}
 **Warning!** Remember, disabling SIP can be dangerous if you are not sure what you are doing. If you are an experienced user, this might be fine. However, please make sure to understand the risks before disabling SIP.
@@ -100,7 +106,7 @@ sudo visudo -f /private/etc/sudoers.d/yabai
 <user> ALL=(root) NOPASSWD: sha256:<hash> <yabai> --load-sa
 ```
 
-And the finall piece you have to run these commands:
+And the final piece you have to run these commands:
 
 ```bash
 yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
@@ -112,6 +118,7 @@ I am not sure exactly but this somehow allows Yabai to run with proper permissio
 The downside is that after every reboot you have to run this command. If you want to make it permanent you have to add this command to your startup scripts.
 
 ## Step 5: Restart Yabai to Apply Changes
+
 After setting up your configuration, restart Yabai to apply the changes:
 
 ```bash
@@ -160,6 +167,7 @@ yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^Ice$" manage=off
 yabai -m rule --add app="^Mac Mouse Fix$" manage=off
 ```
+
 And here is the skhdrc file, which you need to copy into the ~/.skhdrc file:
 
 ```yaml

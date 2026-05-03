@@ -12,9 +12,10 @@ title = "Switch to USB-C came too early on Macs"
 
 Those who are using their Macbooks and Macs right know the pain with USB-C. Unless your model is older than 2016 your device is using new generation USB standard. But isn't it too early?
 
-Whole idea is great. USB-C port gives you the ability to use same port for data transfer, meaning exteranl storage and the same port you can use later for charge the battery. Now that sounds awesome right. Image one of your ports gets damaged but you can still use different for charging your Mac. And that is I guess the key point of this specifc port.
+Whole idea is great. USB-C port gives you the ability to use same port for data transfer, meaning external storage and the same port you can use later for charge the battery. Now that sounds awesome right. Image one of your ports gets damaged but you can still use different for charging your Mac. And that is I guess the key point of this specific port.
 
 Yeah also good thing is you can use usb hub and for one USB-C port can:
+
 * Charge battery
 * Use for hdmi to have external screen
 * Charge your iPhone
@@ -28,9 +29,7 @@ There are several problems. This device is great until you forget one at home. L
 
 You get the idea.
 
-
-
-Also don't forget that buy quite expensive MacBook which, however to be able to use, with other tools like external monitor, you need usb hub. Yes there are monitors these day that do support USB-C for video out but they are also expesive and usualy when you visit other location (since you have an laptop), there is not very high chance they will have USB-C output for you Macbook.
+Also don't forget that buy quite expensive MacBook which, however to be able to use, with other tools like external monitor, you need usb hub. Yes there are monitors these day that do support USB-C for video out but they are also expensive and usually when you visit other location (since you have an laptop), there is not very high chance they will have USB-C output for you Macbook.
 
 ---
 
@@ -38,4 +37,4 @@ And that's the biggest problem. Simply Apple was too early putting this sort of 
 
 But to give this company some credit I also blabe other technologies for being slow. There should have been already monitors, projectors and other stuff ready for USB-C. If this thing supposed to work, then everything must support this standard.
 
-But who know in few years this might the ultimate standard and we all be using for data, charging simply everything thourgh this port.
+But who know in few years this might the ultimate standard and we all be using for data, charging simply everything through this port.

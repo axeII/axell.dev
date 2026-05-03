@@ -13,7 +13,7 @@ title: "Using docker to compress and extract volume backup"
 
 Sunday afternoon I spend playing with docker backups and exporting them locally. My problem was that I had remote machine with running containers in Docker. Containers had docker volumes which weren't mapped directly to local filesystem, simply:
 
-```
+```text
 ...
 volumes:
   - data_config:/src/models/data
@@ -27,7 +27,7 @@ Now we need those data inside container `/src/models/data` and since we are lazy
 
 First we can create local docker context:
 
-```
+```text
 docker context create machine01 --docker "host=tcp://192.168.28.100:2375"
 ```
 
@@ -37,7 +37,7 @@ This can help us to connect docker containers and volumes while staying on local
 
 With the help of context we can list volumes like (as well as access to containers*):
 
-```
+```text
 docker volume ls
 ```
 
@@ -55,7 +55,7 @@ Using the gzip format file size was `420MB` instead of `500MB`:
 
 And the time was:
 
-```
+```text
 time bash backup-docker-volume.sh
 tar: removing leading '/' from member names
 
@@ -71,7 +71,7 @@ Using the `zstd` compression, the file size was `470MB` instead of `500MB`:
 
 And the time was:
 
-```
+```text
 tar: Removing leading `/' from member names
 
 ________________________________________________________
@@ -83,6 +83,6 @@ Executed in   61.08 secs    fish           external
 
 Final try was the xz compress algorithm. Although I was unable to use it on either of those images (busybox and custom image). There might have the biggest compression from those three, but at the time of writing I could not find any minimal docker image containing this compression algorithm.
 
-## Final thoughs
+## Final thoughts
 
 I was disappointed with `zstd`. First in my test it was slower than `gzip` and bigger. Meaning there is not upper side to choose this compress algorithm. Plus `gzip` can be used with the `busybox` image. No need any special unstrusty image (though you could build one your self and pushit to registry). Very light simple image for this use case.

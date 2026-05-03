@@ -16,9 +16,9 @@ First here's the kicker: behind the ubiquit's massive leak is employee who was u
 
 Let's hope that this will not happen again.
 
-
 ## Upgrade
-I was not satisfied with the setup how it is. So I decided to upgrade my gear. It never ends! The main reason for this upgrade was that my network infrastructure was getting bigger. I had to add more AP for better signal distribution. Unfortunately, I've run out of ethernet slots on my UDM Pro so I had to add a new switch to my home lab setup. I decide to add Switch 16 PoE (https://store.ui.com/collections/unifi-network-switching/products/usw-16-poe). This switch has 8 ports supporting 802.3at PoE+ standard that I needed to power supply my new 6 APs. Thanks to this I was able to save space on power supply sockets. Also, I made more space in my rack since I could remove Unifi Poe adapters that were suppling previously power to my APs.
+
+I was not satisfied with the setup how it is. So I decided to upgrade my gear. It never ends! The main reason for this upgrade was that my network infrastructure was getting bigger. I had to add more AP for better signal distribution. Unfortunately, I've run out of ethernet slots on my UDM Pro so I had to add a new switch to my home lab setup. I decide to add Switch 16 PoE ([USW-16-POE](https://store.ui.com/collections/unifi-network-switching/products/usw-16-poe)). This switch has 8 ports supporting 802.3at PoE+ standard that I needed to power supply my new 6 APs. Thanks to this I was able to save space on power supply sockets. Also, I made more space in my rack since I could remove Unifi Poe adapters that were supplying previously power to my APs.
 
 ![fresh look](images/image06.jpg "New fresh look")
 

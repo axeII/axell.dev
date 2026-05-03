@@ -13,7 +13,7 @@ This is a super simple life-changing (for me) feature where you can use touchID 
 
 When I have to enter a password in front of someone the feeling that they can see my password makes me screw up writing the password on the first try and I have to enter it again.And if there is the option to use it so _why not_?
 
-## Standart macOS terminal app
+## Standard macOS terminal app
 
 Here is a simple script that sets Touch ID as a default option for authorization in the terminal when entering `sudo`:
 
