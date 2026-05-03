@@ -1,0 +1,28 @@
+[default]
+extend-exclude-re = [
+    # Hugo shortcodes
+    "\\{\\{<.*>\\}\\}",
+    "\\{\\{%.*%\\}\\}",
+]
+
+[default.extend-words]
+# Project-specific terms
+drozd = "drozd"
+
+[files]
+extend-exclude = [
+    "themes/",
+    "public/",
+    "resources/",
+    "static/",
+    "assets/",
+    "*.css",
+    "*.js",
+    "*.json",
+    "*.xml",
+    "*.html",
+    "*.toml",
+    "*.yaml",
+    "*.yml",
+    "LICENCE.md",
+]
