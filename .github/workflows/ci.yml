@@ -30,7 +30,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
-            --no-progress --offline --exclude-path public/lib --exclude-path
+            --no-progress --offline --root public --exclude-path public/lib --exclude-path
             public/js --exclude-path public/css public/
 
   lint-markdown:
