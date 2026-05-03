@@ -8,7 +8,7 @@ categories: ["tech", "cyber security"]
 title: "Debugging Suspicious Plex Connections: A Deep Dive Into My Self-Hosted Infrastructure"
 ---
 
-Last week, Plex announced a security [incident](https://forums.plex.tv/t/important-notice-of-security-incident/930523) where their user database was compromised, forcing everyone to log out — including server connections. As someone who self-hosts a Plex instance that’s publicly reachable (no VPN in front), this grabbed my attention. Beyond the Reddit threads and confusion, it was a good opportunity to audit my infrastructure. In this post, I’ll walk through how I autdit my Plex server and chased down some weird connections to my Plex server using Grafana, Tautulli, and Cloudflare Tunnel.
+Last week, Plex announced a security [incident](https://forums.plex.tv/t/important-notice-of-security-incident/930523) where their user database was compromised, forcing everyone to log out - including server connections. As someone who self-hosts a Plex instance that’s publicly reachable (no VPN in front), this grabbed my attention. Beyond the Reddit threads and confusion, it was a good opportunity to audit my infrastructure. In this post, I’ll walk through how I autdit my Plex server and chased down some weird connections to my Plex server using Grafana, Tautulli, and Cloudflare Tunnel.
 
 ## The Wake-Up Call
 
@@ -16,7 +16,7 @@ The Plex incident was a reminder that even well‑secured services can get hit. 
 
 ## The Investigation Begins
 
-My first instinct was to check my monitoring stack to see if there had been any unusual activity on my Plex server. This is exactly why having proper observability in a homelab matters — during incidents, you need answers quickly. Without logs and monitoring, you’re flying blind. Before we continue here is a  quick overview of my setup:
+My first instinct was to check my monitoring stack to see if there had been any unusual activity on my Plex server. This is exactly why having proper observability in a homelab matters - during incidents, you need answers quickly. Without logs and monitoring, you’re flying blind. Before we continue here is a  quick overview of my setup:
 
 ### Core Components
 
@@ -34,17 +34,17 @@ My first instinct was to check my monitoring stack to see if there had been any 
 
 ### Step 1: Grafana logs
 
-I started with my Grafana dashboard, which aggregates logs from all services running on Kubernetes — including Plex. Almost immediately, something looked off: connections were happening regularly between ~3–9 AM. That’s a unlike play time for my friends or family to use my Plex instance.
+I started with my Grafana dashboard, which aggregates logs from all services running on Kubernetes - including Plex. Almost immediately, something looked off: connections were happening regularly between ~3–9 AM. That’s a unlike play time for my friends or family to use my Plex instance.
 
 > Worth noting: there’s a known Cloudflare Tunnel issue where some connections aren’t closed properly (see: <https://github.com/cloudflare/cloudflared/issues/1300>), but the pattern here was too consistent to ignore.
 
-The timing was the first red flag. The connections also had a repeatable signature — it almost looked like someone was probing the instance.
+The timing was the first red flag. The connections also had a repeatable signature - it almost looked like someone was probing the instance.
 
 ![grafana logs](https://img.axell.dev/plex%3Agrafana.webp "Grafana logs showing suspicious connections")
 
 ### Step 2: Tautulli check
 
-To verify my suspicions, I checked Tautulli — a great tool for Plex user activity, play stats, and connection details. Tautulli confirmed it: during those ~3–9 AM windows, there were no active users on my server.
+To verify my suspicions, I checked Tautulli - a great tool for Plex user activity, play stats, and connection details. Tautulli confirmed it: during those ~3–9 AM windows, there were no active users on my server.
 
 That ruled out legitimate activity. The question became: what (or who) was making these connections?
 
@@ -64,11 +64,11 @@ This is where it got interesting. Digging deeper into the Cloudflare admin panel
 
 After a longer-than-I’d-like investigation, I finally found the source: my friend’s Plex server.
 
-Years ago, we connected our Plex servers for fun — probably to share libraries or test something — and then completely forgot about it. The connection kept humming along in the background.
+Years ago, we connected our Plex servers for fun - probably to share libraries or test something - and then completely forgot about it. The connection kept humming along in the background.
 
 ![cloudflare2](https://img.axell.dev/plex%3Acloudlfare2.webp "The Suspicious IP address which was my friend's home ip in the end")
 
-My friend’s server was periodically reaching out to mine, likely for status checks or library updates. Not malicious — just unexpected — and it explained the ~3–9 AM pattern (likely maintenance windows on his side).
+My friend’s server was periodically reaching out to mine, likely for status checks or library updates. Not malicious - just unexpected - and it explained the ~3–9 AM pattern (likely maintenance windows on his side).
 
 ## Lessons Learned
 
@@ -78,9 +78,9 @@ This incident taught me a few useful lessons about infrastructure and security:
 - Documentation Matters
 - Monitoring Pays Off
 
-Good monitoring (Grafana stack + Tautulli) made this fast and boring — which is exactly what you want. Without it, I might never have noticed the pattern.
+Good monitoring (Grafana stack + Tautulli) made this fast and boring - which is exactly what you want. Without it, I might never have noticed the pattern.
 
-Even simple, harmless configs can age into problems. What started as a fun experiment turned into a forgotten connection that looked suspicious during a review. If we’d documented the server‑to‑server connection, this would have been a 2‑minute check. Write down changes — even the “temporary” ones.
+Even simple, harmless configs can age into problems. What started as a fun experiment turned into a forgotten connection that looked suspicious during a review. If we’d documented the server‑to‑server connection, this would have been a 2‑minute check. Write down changes - even the “temporary” ones.
 
 ---
 
@@ -98,7 +98,7 @@ If you run Plex (or anything similar) at home, here’s what’s worked well for
 
 ## Conclusion
 
-The Plex incident was a good reminder to audit my setup. The “suspicious” connections turned out to be harmless — a long‑forgotten server share — but the investigation proved the value of visibility.
+The Plex incident was a good reminder to audit my setup. The “suspicious” connections turned out to be harmless - a long‑forgotten server share - but the investigation proved the value of visibility.
 
 Being able to trace connections end‑to‑end (Grafana logs → Cloudflare analytics) made it easy to gain confidence in the setup. If you self‑host, invest a little in observability and you’ll sleep better.
 
