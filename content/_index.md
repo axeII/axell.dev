@@ -1,4 +1,4 @@
 ---
 ---
 
-Writing about DevOps/SRE, infrastructure, home labs, and the occasional deep dive into macOS stuff.
+Writing organic posts about DevOps/SRE, infrastructure, home labs, and the occasional deep dive into macOS stuff.
