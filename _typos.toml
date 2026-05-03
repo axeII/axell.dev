@@ -1,5 +1,5 @@
 [default]
-extend-exclude-re = [
+extend-ignore-re = [
     # Hugo shortcodes
     "\\{\\{<.*>\\}\\}",
     "\\{\\{%.*%\\}\\}",
