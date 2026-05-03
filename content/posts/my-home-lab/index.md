@@ -1,7 +1,7 @@
 ---
 categories: ["tech", "sys admin"]
 date: 2021-07-02T23:46:00Z
-description: "Introduction to building a home lab in a small space — hardware choices, rack constraints, noise, and heat challenges."
+description: "Introduction to building a home lab in a small space - hardware choices, rack constraints, noise, and heat challenges."
 draft: false
 slug: "my-home-lab"
 tags: ["tech", "sys admin","home ops"]

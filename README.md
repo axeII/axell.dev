@@ -39,7 +39,7 @@ themes/blowfish/   # Theme submodule
 
 ## ℹ️ About
 
-I wrote a post about migrating from Ghost to Hugo — read it [here](https://blog.axell.dev/favorite/why-i-migrated-from-ghost-to-hugo-and-cloudflare/).
+I wrote a post about migrating from Ghost to Hugo - read it [here](https://blog.axell.dev/favorite/why-i-migrated-from-ghost-to-hugo-and-cloudflare/).
 
 ## External Dependencies
 
