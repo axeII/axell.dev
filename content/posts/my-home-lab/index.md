@@ -16,7 +16,7 @@ Building and maintaining home lab is my hobby. Creating one allows you to experi
 
 If you are planning to build your own home lab you can find (as I did) lot of info in reddit's communities like `r/homelab`, `r/sysadmin`, and `r/selfhosted` serve as valuable resources, providing knowledge, inspiration. There are also many discord servers like `k8sathome`, `sysadmin`, `ubuiqity` and many more which contain supportive network of fellow enthusiasts.
 
-Now about my setup. There are some closed sourced technologies both SW and HW, but overall most of the stuff is FOSS. Tools like proxmox, ubuntu, btrfs, etc. I think that the biggest advantage using them is the community. Blogs, discord channels, reddit posts and many more can be great source of knowlage when trying to understand how to use them. I always like to choose technology where can I find active users who communicate and share knowledge but also help each other. Funny is that even unifi biggest and most helpful support I found (again) is the unofficial channel.
+Now about my setup. There are some closed sourced technologies both SW and HW, but overall most of the stuff is FOSS. Tools like proxmox, ubuntu, btrfs, etc. I think that the biggest advantage using them is the community. Blogs, discord channels, reddit posts and many more can be great source of knowledge when trying to understand how to use them. I always like to choose technology where can I find active users who communicate and share knowledge but also help each other. Funny is that even unifi biggest and most helpful support I found (again) is the unofficial channel.
 
 But enough of that and let's get to my homelab.
 
