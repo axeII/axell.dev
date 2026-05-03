@@ -1,53 +1,135 @@
 ---
 date: 2026-03-14T01:00:00Z
-description: "A practical guide on how to stay safe, prepared, and calm during a vacation in a dangerous or high-risk destination."
+description: "A practical guide on how to stay safe, prepared, and calm during a vacation in a dangerous or high-risk destination - based on my real experience of getting stuck in a war zone in the UAE."
 draft: true
 slug: "how-to-survive-dangerous-vacation"
 tags: ["travel", "safety", "adventure"]
-title: "How to Survive a Dangerous Vacation"
+categories: ["travel"]
+title: "When vacations turns into nightmare: How I got myself stuck in the middle of war zone"
 
 ---
 
-This is not a click bait arctile but something I've decided to write down after returning from UAE emirates vacation in 2026 March. I was very luck go get home safe and no injures or finantional damage actually. It was very nervous vacation but worst part was drones or racket but the uknown. Being in the lambo land as I've learned from my british friends being there stuck as well. Now I've decied to write down things I wish I new and are from my experionce and hope these can help someone - someday as well if they will be in the same or similar situation as me.
+{{< alert >}}
+**Important note**: I am not trying to use this article as a click bait. This really happened to me and it may happen to you. I am not trying to scare anyone or share panic. Point of this article is to provide practical advice on how to stay safe in dangerous situations during vacations.
+{{< /alert >}}
 
+I've decided to write down after returning from UAE emirates vacation in 2026 March, however due me being busy and actually taking the time to write things down and actually making a good blog post this took a while (hence the delay release this post).
 
-## Before You Go
-Unfortunately we live in danger world and for now seems like the sitution is getting worse in 2026. We already have situation in Venezulate, Middle east also Mexico. Today these are countries I would recommend to stay away from at least the till the end of year. There are also coutries like Kuba which are in danger state.
+I was very lucky to get home safe with no injuries or financial damage. It was a very nervous vacation but the worst part was not the drones or rockets - it was the unknown. Being in "limbo land", as I've learned from my British friends who were stuck there as well. Now I've decided to write down things I wish I knew and share my experience, hoping it can help someone someday if they find themselves in the same or similar situation.
 
-It's makes me sad that number of countries one can visit is getting worse every day but let's get back the thigs I want to know.
+---
 
+## What Happened
 
-### Register to the goveremnt program
-- Register if possible to goveremnt program for protection - in our country the system is called drozd
+<!-- TODO: Write the full story. Use the outline below as a guide, then remove the outline comments. -->
 
-### Pack Smart
-- have medication with you - as it may be possible that when things would go down - you will needs medication of your own especially if you have need of insuline or inhulator
-- Portable charger and a universal power adapter. (MUST)
-- Copies of all important documents or make picutre in the phone
-- Cash - yeah but it's supper handy and you never know when you need it.
+### The Trip
+
+<!-- TODO: Why did you pick UAE? What were you expecting? Set the scene - relaxation, beach, etc. -->
+
+### The Moment Everything Changed
+
+<!-- TODO: You were at the bar drinking a beer. You came back to the beach where your towel was and heard loud shots - anti-air defense doing its work. Describe that moment in detail: what you heard, what you saw, what you felt, what people around you were doing. -->
+
+<!-- TODO: Photo - rockets being shot in the sky -->
+<!-- ![Rockets in the sky](rockets.jpg) -->
+
+### Limbo Land
+
+<!-- TODO: The days after. The uncertainty - not knowing what's happening, what will happen next. Drones overhead, the hotel lockdown situation. The drone that fell down next to the hotel. British friends stuck in the same situation. The psychological weight of not knowing. -->
+
+<!-- TODO: Photo - drone that fell near the hotel -->
+<!-- ![Drone wreckage near the hotel](drone.jpg) -->
+
+### Getting Home
+
+<!-- TODO: How did you eventually get out? Flights? Embassy help? How long were you stuck? The relief of getting home. -->
+
+---
+
+Everything I describe below comes directly from this experience. Some of it I did right, some of it I wish I had known before boarding that plane.
+
+---
+
+## Before You Travel
+
+Unfortunately we live in a dangerous world and the situation is getting worse in 2026. We already have conflicts in Venezuela, the Middle East, and Mexico. These are countries I would recommend staying away from, at least until things stabilize. There are also countries like Cuba which are in a precarious state.
+
+It makes me sad that the number of countries one can safely visit is shrinking - but that's exactly why preparation matters.
+
+### Research the Geopolitical Situation
+
+<!-- TODO: Check news, government travel advisories, understand the risk level before booking. Mention specific resources. -->
+
+### Register with Your Government
+
+- Register to a government program for citizen protection abroad - in our country the system is called DROZD
+<!-- TODO: Mention equivalents in other countries if you know them (e.g., UK FCDO, US STEP) -->
+
+### Pack a Survival Kit
+
+- Medication - when things go down, you may not have access to pharmacies, especially if you need insulin or an inhaler
+- Portable charger and a universal power adapter (MUST)
+- Copies of all important documents - or at minimum, photos on your phone
+- Cash - it's super handy and you never know when you'll need it when digital payments go down
 
 ### Get Insured
-Make sure you have travel insurance that covers emergency evacuation and medical treatment. This is non-negotiable for high-risk destinations.
+
+Make sure you have travel insurance that covers **emergency evacuation** and medical treatment. This is non-negotiable for high-risk destinations.
+
+<!-- TODO: Did your insurance come into play during this trip? If so, mention it. -->
 
 ---
 
-## On the Ground
+## While You're There
 
 ### Know Your Exits
-Take a picture of the hotel map, and know the exists. When I was stuck in abu dhabi hotel I make a picture of evacuation plan - in case drone would hit the building so I know when I need to go in case of the problem
+
+Take a picture of the hotel evacuation map and know the exits. When I was stuck in the Abu Dhabi hotel, I photographed the evacuation plan - in case a drone would hit the building, I'd know exactly where to go.
 
 Always identify the nearest exits in any building, vehicle, or public space. Have a mental plan for evacuation.
 
-### Communication
-- Buy a local SIM card for reliable connectivity.
-- Get program from sim - I was acutally lucky since cell company gave me extra 5GB free but still I used most of the time hotel wifi
-- Get a VPN provider or make your own server - I am IT person and I have route at home. I used wireguard server and thanks to that whats up thigns woker for me very well, while for others they worked not so well since there was firewall rules that blocked these things
+### Secure Your Communications
 
+- **Local SIM card** - buy one for reliable connectivity. I was actually lucky since the cell company gave me an extra 5GB free, but I still used hotel wifi most of the time
+- **VPN** - get a VPN provider or make your own server. I'm an IT person and I have a router at home running a WireGuard server. Thanks to that, WhatsApp and other messaging apps worked perfectly for me, while for others they didn't work well because there were firewall rules blocking these services
 
-# War started
+### Monitor the Situation
 
+<!-- TODO: What sources did you check for news? Embassy alerts? DROZD notifications? Local news? Twitter/X? How often? -->
 
+### Stay Connected with People at Home
+
+<!-- TODO: Did you have a check-in schedule with family? How did they react? How important was it to keep them informed? -->
+
+---
+
+## When Things Go Wrong
+
+### Stay Calm and Assess
+
+<!-- TODO: This is the "limbo land" psychology section. Describe what uncertainty feels like when you're stuck. How did you manage your own fear? What helped you stay calm? What was the hardest part mentally? The sound of anti-air at the beach, the drone crash near the hotel - how do you process that in the moment? -->
+
+### Contact Your Embassy
+
+<!-- TODO: Did you contact the embassy? How responsive were they? What did they advise? How did DROZD help (or not)? -->
+
+### Follow Hotel and Local Authority Instructions
+
+<!-- TODO: What did the hotel do? Were there lockdowns, curfews, instructions? Did staff handle it well? -->
+
+### Document Everything
+
+<!-- TODO: Take photos, save receipts, note times and events. For insurance claims, for personal records, for proof if needed later. You have photos of rockets and drone wreckage - this is exactly the kind of documentation that matters. -->
+
+### Plan Your Exit
+
+<!-- TODO: How did you plan getting out? Were flights cancelled? Did you check alternative routes? Embassy evacuation? What was the process like? -->
+
+---
 
 ## Final Thoughts
 
-Dangerous vacations are not inherently foolish — many of the world's most beautiful and culturally rich places carry some level of risk. The difference between a disaster and an adventure often comes down to preparation. Stay informed, stay humble, and stay safe.
+Dangerous vacations are not inherently foolish - many of the world's most beautiful and culturally rich places carry some level of risk. The difference between a disaster and an adventure often comes down to preparation. Stay informed, stay humble, and stay safe.
+
+<!-- TODO: Add a closing reflection - what did this experience change about how you travel? Would you go back? What's your advice in one sentence? -->
