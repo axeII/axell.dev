@@ -33,6 +33,7 @@ This sucks, so I started my research and I tried to find simple solution for thi
 So how to do this?
 
 ### The script
+
 First you need to install `stress` utility like this:
 
 ```bash

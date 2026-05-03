@@ -41,16 +41,14 @@ heroStyle: "background"
 {{< github repo="axeII/hasky" >}}
 {{< /timelineItem >}}
 
-
 {{< timelineItem icon="code" header="Home Lab" badge="" >}}
 I've engineered a robust homelab ecosystem with help of Proxmox VMs, unifi switches, UDM Pro router, and a Kubernetes cluster to host and manage an array of self-hosted services with almost enterprise-grade reliability.
 {{< gallery >}}
-  <img src="https://img.axell.dev/homelab%3Aimage01.jpg" class="grid-w33" />
-  <img src="https://img.axell.dev/homelab%3Aimage02.jpg" class="grid-w33" />
-  <img src="https://img.axell.dev/homelab%3Aimage03.webp" class="grid-w33" />
-  <img src="https://img.axell.dev/homelab%3Aimage04.webp" class="grid-w33" />
+  <img src="https://img.axell.dev/homelab%3Aimage01.jpg" alt="Home lab image 1" class="grid-w33" />
+  <img src="https://img.axell.dev/homelab%3Aimage02.jpg" alt="Home lab image 2" class="grid-w33" />
+  <img src="https://img.axell.dev/homelab%3Aimage03.webp" alt="Home lab image 3" class="grid-w33" />
+  <img src="https://img.axell.dev/homelab%3Aimage04.webp" alt="Home lab image 4" class="grid-w33" />
 {{< /gallery >}}
 {{< /timelineItem >}}
-
 
 {{< /timeline >}}

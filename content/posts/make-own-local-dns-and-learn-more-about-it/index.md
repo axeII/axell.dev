@@ -16,10 +16,10 @@ This morning I had a great idea to make my own DNS server. So I started googling
 
 The answer is probably not.
 
-My initial idea doing this was I could gain more privacy. But now I think rather than doing this you could gain more privacy by using VPN and even using that technology you will not succed achiving 100% privacy. Maybe using tor browser  but that is another topic. The main reason I did it was to gain more knowledge about networking and about the DNS. Now read on and you'll see results at the end of the article.You also need a Linux machine to run the service on the local network. And also _free_ time since this could take you some time especially if it's your first time working with similar technologies.Before we begin with all the _voodoo_ stuff there are some facts you need to know. You need to know what kind of DNS you would like to host yourself. There basically two types:
+My initial idea doing this was I could gain more privacy. But now I think rather than doing this you could gain more privacy by using VPN and even using that technology you will not succeed achieving 100% privacy. Maybe using tor browser  but that is another topic. The main reason I did it was to gain more knowledge about networking and about the DNS. Now read on and you'll see results at the end of the article.You also need a Linux machine to run the service on the local network. And also _free_ time since this could take you some time especially if it's your first time working with similar technologies.Before we begin with all the _voodoo_ stuff there are some facts you need to know. You need to know what kind of DNS you would like to host yourself. There basically two types:
 
-* Authorative - answers for a specific domain
-* Resolvers - fetch answers from authorative servers on behalf of your clients
+- Authoritative - answers for a specific domain
+- Resolvers - fetch answers from authoritative servers on behalf of your clients
 
 In case you would like to host your own site and have your own resolvers then go for authoritative DNS and prepare VPS plus domain for that. You'll need glue records. Here is a good tutorial on how to do [that](https://zwischenzugs.com/2018/01/26/how-and-why-i-run-my-own-dns-servers/).
 
@@ -27,13 +27,12 @@ In my case, I wanted to setup a DNS **resolver**. And there are few steps how to
 
 First, you need to decide which service  would you like to use. The famouse are:
 
-* dnsmasq
-* bind
-* unbound
-* coredns
+- dnsmasq
+- bind
+- unbound
+- coredns
 
 I went with the `bind`. I'll might try one of these later and measure speed difference in the future.
-
 
 ## Theory
 
@@ -62,14 +61,14 @@ options {
 
   // Either replace 'any' with a list
   //of IPs you allow requests from, or add firewall rules
-  // change the rules here for allowed ips exspecially
+  // change the rules here for allowed ips especially
   //if you are planning to open your dns server to public.
   allow-recursion { any; };
   allow-query-cache { any; };
   allow-query { any; };
 
   // In case you can't use port 53 you can set different one
-  // 127.0.0.1 must be set and also set your local ip adress
+  // 127.0.0.1 must be set and also set your local ip address
   //range to for access
   listen-on port 5353 {
     127.0.0.1; 192.168.0.0/24;
@@ -114,7 +113,6 @@ And after you set on your machine DNS resolver Linux machine you can happily use
 BUT.
 
 ![meme1](images/image01.jpg)
-
 
 Yeah, your home DNS is slow (OMG!).
 
@@ -170,8 +168,8 @@ Oh yeah well it's _slower_ but we should have much better speed if we repeat the
 
 ![meme2](images/image02.jpg)
 
-Oh well.  Results are that it's 39ms without bind and 53ms with it.  Seems like your home server which could be rasberry pi is not better than multi milion dollar datacenter (shoking I know) but still it was fun to play with these tools.
+Oh well.  Results are that it's 39ms without bind and 53ms with it.  Seems like your home server which could be raspberry pi is not better than multi million dollar datacenter (shoking I know) but still it was fun to play with these tools.
 
 ## Final thoughts
 
-This fun eventhough I can't think of this huge success. My home server was still slower in the end that public provider like Google or Cloudflare.  Honestly I was dissapointed with the results but in the end I learned something new.
+This fun eventhough I can't think of this huge success. My home server was still slower in the end that public provider like Google or Cloudflare.  Honestly I was disappointed with the results but in the end I learned something new.

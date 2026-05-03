@@ -1,0 +1,32 @@
+[default]
+extend-ignore-re = [
+    # Hugo shortcodes
+    "\\{\\{<.*>\\}\\}",
+    "\\{\\{%.*%\\}\\}",
+]
+
+[default.extend-words]
+# Project-specific terms
+drozd = "drozd"
+# AKS = Azure Kubernetes Service (cloud platform acronym)
+AKS = "AKS"
+# Sur = macOS Big Sur (Apple OS version name)
+Sur = "Sur"
+
+[files]
+extend-exclude = [
+    "themes/",
+    "public/",
+    "resources/",
+    "static/",
+    "assets/",
+    "*.css",
+    "*.js",
+    "*.json",
+    "*.xml",
+    "*.html",
+    "*.toml",
+    "*.yaml",
+    "*.yml",
+    "LICENCE.md",
+]

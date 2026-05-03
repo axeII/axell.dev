@@ -7,7 +7,7 @@ tags: [Rust, Docker, Alpine]
 
 ---
 
-# Introduction
+## Introduction
 
 When it comes to deploying Rust applications, using Docker containers has become a popular choice. Docker allows you to package your application along with its dependencies, making it easier to deploy and run consistently across different environments. In this simple blog post, I want to simply and quickly explain how to do it, since it can be tricky to deploy a Rust compiled binary on a lightweight Alpine Docker image.
 
@@ -34,14 +34,14 @@ apt-get install -y musl-tools
 
 `musl-tools` is a package that provides utilities for building and working with applications that use the musl libc (musl Library). Musl is an alternative standard library implementation for the C programming language.
 The musl-tools package typically includes:
-  * Compiler wrappers: These tools help in compiling code with musl instead of the default glibc.
-  * Static linking: Utilities to aid in statically linking binaries against musl, which helps in producing more portable and standalone binaries.
-  * Compatibility aids: Tools to ensure that software built with musl behaves correctly and maximizes compatibility.
 
+- Compiler wrappers: These tools help in compiling code with musl instead of the default glibc.
+- Static linking: Utilities to aid in statically linking binaries against musl, which helps in producing more portable and standalone binaries.
+- Compatibility aids: Tools to ensure that software built with musl behaves correctly and maximizes compatibility.
 
 ## Step 2: Build the Rust Binary
 
-Second, we need to build the Rust binary that we want to deploy. You can do this inside dockerfile or just ouside and then just copy it to the Assuming you have your Rust project set up, navigate to the project directory and run the following command:
+Second, we need to build the Rust binary that we want to deploy. You can do this inside dockerfile or just outside and then just copy it to the Assuming you have your Rust project set up, navigate to the project directory and run the following command:
 
 ```bash
 cargo build --target x86_64-unknown-linux-musl --release

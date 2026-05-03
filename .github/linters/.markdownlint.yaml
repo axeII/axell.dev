@@ -1,23 +1,11 @@
 ---
 default: true
 
-# MD013/line-length - Line length
-MD013:
-  # Number of characters
-  line_length: 240
-  # Number of characters for headings
-  heading_line_length: 80
-  # Number of characters for code blocks
-  code_block_line_length: 80
-  # Include code blocks
-  code_blocks: true
-  # Include tables
-  tables: true
-  # Include headings
-  headings: true
-  # Include headings
-  headers: true
-  # Strict length checking
-  strict: false
-  # Stern length checking
-  stern: false
+# Disable line-length — existing posts have very long lines
+MD013: false
+
+# Hugo content files start with YAML frontmatter, not headings
+MD041: false
+
+# Inline HTML is used intentionally (Hugo shortcodes, img tags)
+MD033: false

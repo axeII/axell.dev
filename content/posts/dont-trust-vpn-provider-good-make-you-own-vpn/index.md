@@ -16,9 +16,9 @@ As of today, there are thousand or even more VPN providers. These times were we 
 
 We can separate all these providers based on features and price, but there is not that much difference.
 
-*  So which provider is the best?
-*  Which one really doesn't log anything?
-*  Which provider is not banned in my country?
+- So which provider is the best?
+- Which one really doesn't log anything?
+- Which provider is not banned in my country?
 
 And here goes the ansfer. Don't trust VPN providers be your own VPN provider. Yes make your own VPN. Share it with family or friends. And actually it's not that hard to do.
 
@@ -40,15 +40,14 @@ On the other hand, most of us do need VPN to access our workspace (thanks to COV
 
 Anyway back to my previous question. Why should one use VPN unless it is due to work?  Without spending hours and hours to discuss if yes or not, here is a very good gist page with FAQ for this specific topic. I do recommend to through with it since it was helpful for me.
 
-
 ## Solution: Algo personal VPN in the cloud
 
 Anyway, let's set up our own VPN service. When I was looking for custom solutions I was sure I want to set up a VPN service on the cloud. Because of that, I had found the perfect tool for this -- Algo. What also really is I do recommend reading this blog [post](https://blog.trailofbits.com/2016/12/12/meet-algo-the-vpn-that-works/). Anyway, in short, Algo has many advantages over other services like:
 
-* encryption since algo supports only IKEv2
-* also supports modern vpn protocol wireguard
-* multiplaform (iOS, windows, linux, macos, Android)
-* easy to deploy on cloud
+- encryption since algo supports only IKEv2
+- also supports modern vpn protocol wireguard
+- multiplaform (iOS, windows, linux, macos, Android)
+- easy to deploy on cloud
 
 Algo is written in python and it's available on Github (link below).
 
@@ -56,15 +55,15 @@ Algo is written in python and it's available on Github (link below).
 
 You need only a few things to run this service:
 
-* VPS (cloud serice like aws or gcp)
-* install algo on local machine (to deploy on cloud)
-* free time, but it's very easy to deploy (it's task for ~25mins)
+- VPS (cloud service like aws or gcp)
+- install algo on local machine (to deploy on cloud)
+- free time, but it's very easy to deploy (it's task for ~25mins)
 
 ### Step 1: Setup cloud service
 
-There are many cloud providers, for example, Google, Amazon, or Microsoft. All of them have different services and different pricing. Pick your poison. You can find many tutorials on how to set up an environment on different cloud services https://github.com/trailofbits/algo/tree/master/docs.
+There are many cloud providers, for example, Google, Amazon, or Microsoft. All of them have different services and different pricing. Pick your poison. You can find many tutorials on how to set up an environment on different cloud services [here](https://github.com/trailofbits/algo/tree/master/docs).
 
-In my case, I will use GCP as a cloud provider. Now you can set up the environment via the website application on https://console.cloud.google.com or via a CLI terminal tool. Google has a great tool for this called `glcloud`. Using this tool is not that hard and makes things a little easier.
+In my case, I will use GCP as a cloud provider. Now you can set up the environment via the website application on [console.cloud.google.com](https://console.cloud.google.com) or via a CLI terminal tool. Google has a great tool for this called `glcloud`. Using this tool is not that hard and makes things a little easier.
 
 Now first thing is to set up the environment with `gcloud`. Replace `USER` with what named you to want to use for the user. `PROJECT_ID` is important to link to your project and at last `BILLING_ID` all these variables you can find in the google cloud profile.
 

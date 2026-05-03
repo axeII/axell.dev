@@ -10,9 +10,9 @@ title = "How to migrate from Azure DNS to Cloudflare"
 +++
 
 
-Recently, at work we decided that we should migrate our domains to Cloudflare. I really happy, about this choice since Clouflare has variety of cool features one can use. And there are many of those!
+Recently, at work we decided that we should migrate our domains to Cloudflare. I really happy, about this choice since Cloudflare has variety of cool features one can use. And there are many of those!
 
-> As a DevOps engineer I like to manage domains on Cloudlfare using Terraform. It helps with automating creating dns records and gettings ssl certificates.
+> As a DevOps engineer I like to manage domains on Cloudlfare using Terraform. It helps with automating creating dns records and getting ssl certificates.
 
 Anyway. Before migration we were using Azure DNS and for some reason I could not find any useful blog post were I could get simple and clear instructions how to do this. So here we are. Hopefully this post can save an hour of googling and testing.
 
@@ -51,10 +51,10 @@ az network dns zone export -g resourceGroupExample -n example.com -f example.com
 
 ## Step 3. Insert generate file
 
-Honestly this step is very easy. Once you have the generated file all you need to do is to is insert this file while you are creating new domain settings on the Cloudlfare.  When you are on the page just click on advanced setings on the right side and then you will see input window to insert your file.
+Honestly this step is very easy. Once you have the generated file all you need to do is to is insert this file while you are creating new domain settings on the Cloudlfare.  When you are on the page just click on advanced settings on the right side and then you will see input window to insert your file.
 
 And that's it!
 
-## Final thoughs
+## Final thoughts
 
 Even tough we use mainly at work terraform to generate our resources, sometimes we need to use azure CLI (like this one). Using azure CLI tool can be very useful sometimes. For more info how to use it check out this [page](https://docs.microsoft.com/en-us/cli/azure/).One can even write his own scripts, but yeah for the usual stuff I recommend to use Terafform.

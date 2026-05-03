@@ -13,7 +13,7 @@ Long story short, one afternoon I was performing maintenance on a Virtual machin
 
 As I was about to power off the machine, but I found myself in the middle of a discussion with my colleague. While I had been monitoring the VM prior to shutting it down, suddenly, in the middle of our conversation, my colleague noticed a specific process which should not have been there. _"Hey, what's that?"_ asked. At first, I didn't notice anything unusual. So I opened another bigger window and tried to find this process again. Found it and we knew it's bad.
 
-```
+```bash
 ./validator -P stratum1+tcp://0xf47A58ad640ecAEA78D89C5eA8E5f7C51IJCe.laptop@eu1.ethermine.org:4444 &>/dev/null
 #&>/dev/null
 ```
@@ -28,7 +28,7 @@ _Dammit_.
 
 OK, that sucks what to do next? I used the find command for a file named "validator" since there shouldn't be that many files with the same name. I was right. I had found 7 files with the same name in different directories. However, one directory felt strange and it was /etc/test/validator. Hmm, strange. Let's check it out. Quick `cd` and I found this:
 
-```
+```bash
 base) root@core:/etc/test# ll
 total 8164
 drwxr-xr-x   2 root root    4096 Oct  1 20:20 ./
@@ -41,14 +41,11 @@ Bingo! This must be it! Let's cat `start.sh` which was one line script for execu
 
 > [Virus total analysis](https://www.virustotal.com/gui/file/7034cd646d9c7d2f2add1bdc41b4c12085f526c8876d82e2b1d0965332c8fd45?nocache=1)
 
-
 Luckily it was just a crypto miner and not some ransomware or anything dangerous. Now the problem was that since this was VM user was root. There was no chance to find the culprit base on the author. However, I had a file and knew when it was created based on Linux time. So via the last command. I listed the history of all logged users via ssh, compare the time the file was created with the day of logged users. I had them. Luckily there was no hacker or any outside data leak. This malicious program was installed by someone inside.
 
-So far so good found the file, the culprit, killed the process. It's nothing dangerous but I need to be sure it's just this VM. So the next thing I did was use the file and start to look for the same file on other VMs with GPU. Luckily no other VM had the same file with this hash.
+So far so good found the file, the culprit, killed the process.
 
-OK. Added to report. _Is that all?_ I asked myself. I did some digging on `validator` file which was just crypto mining tool:
-
-```
+```bash
 ethminer 0.19.0-17+commit.ce52c740
 Build: linux/release/gnu
 ```

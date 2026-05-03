@@ -66,7 +66,6 @@ And 🎉  now you can simply update and fully patch your system!
 pacman -Syyu
 ```
 
-
 {{< alert >}}
 **Remember** don't forget to **update** your system to make it difficult for the malicious attackers. There is older guide for zfs which can be still useful, it's just down so you can find it [here](http://web.archive.org/web/20200125062036/https://artnoi.com/blog/zfsarch.html).
 {{< /alert >}}

@@ -13,18 +13,18 @@ This is quick tip that happened to me this afternoon. If you mount volume on doc
 
 ## Problem
 
-Now since you first mount volume to cotainer and this volume (directory) contains symlinks. Symlinks are a big challenge inside docker. Container will not have access to those files and will no be able to load to your conatiner. Inside you container this files will look like broken files or missing.
+Now since you first mount volume to container and this volume (directory) contains symlinks. Symlinks are a big challenge inside docker. Container will not have access to those files and will no be able to load to your container. Inside you container this files will look like broken files or missing.
 
 It's simple problem with simple solution even this can be troblesome if you don't know or except this docker behaviour.
 
 ## Solution
 
-You can simply fix that by mounting also that volume which symlinks are linking to. Mount volume to docker conainer as you do plus mount addiotional directory where are symlinks pointing eg:
+You can simply fix that by mounting also that volume which symlinks are linking to. Mount volume to docker container as you do plus mount additional directory where are symlinks pointing eg:
 
 Example:
 
 `docker run -v /data/:/data/ -v /mnt/mounted:/mnt/mounted helloword`
 
-By that conatiner will have acces those files again and your which may need those files, will finally work again.
+By that container will have access those files again and your which may need those files, will finally work again.
 
 Fixed!
