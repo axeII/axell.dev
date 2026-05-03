@@ -33,7 +33,7 @@ So to beat these challenges I had to make several choices. I could not afford a 
 
 The first problem was - which hardware to go with. I could go with Raspberry pi as 80% people who selfhost stuff, _or_ my fancier and go with Intel's Nucs. But I decided to choose a different brand!
 
-_Hmm_
+### Hmm
 
 Honestly at the time I was working on this project AMD was on hype. Of course I would fell for such thing and that's why I made choice with the Udoo BOLT V8 (link is [here](https://duckduckgo.com/?t=ffab&q=udoo+bolt+v8+&ia=web)). Brand is Bolt and it has nothing to do with audi v8 _haha._  I could go with intel who had bad PR or with AMD Ryzen. Bolt wasn't just any computer. It was the only SBC (single board computer) at the on market what used AMD processors with Vega graphics. I though that cool let's go with it. Nothing bad can happen.
 

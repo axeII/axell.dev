@@ -79,7 +79,6 @@ There are many more option for this so if you are reading this this the way I di
 | Render | Offers a free tier with a simple deployment process. Custom domain support. |
 | Surge.sh | Easy-to-use CLI tool. Free tier allows basic sites with limited custom domain support. |
 
-
 Each of these services has different features and pricing models, so you can choose the one that best fits your needs. So there are quiet lot of choices today to choose from. Pick your own poison. 😇
 
 Anyway my choice was Cloudflare since I am already using it for other projects - making it an easy choice for my needs. Cloudflare pages was super easy to setup.
@@ -96,6 +95,7 @@ All that remains is to set up the build process, as Cloudflare should already ha
 ```bash
 hugo --minify -t blowfish
 ```
+
 and set the output directory to `public`.
 
 ![cloudflare](https://img.axell.dev/hugo%3Acloudflare.png "Build hugo settings")

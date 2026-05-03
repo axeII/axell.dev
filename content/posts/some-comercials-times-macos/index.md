@@ -24,8 +24,8 @@ For example you can see the username inside terminal which is **tigerparty**.
 
 Based on the information from their website:
 
->    Ultra High Quality Specs:
->     Native 4K @60FPS with Apple lossless ProRes 422HQ or Uncompressed animation codec
+> Ultra High Quality Specs:
+> Native 4K @60FPS with Apple lossless ProRes 422HQ or Uncompressed animation codec
 
 ...this company decided to sell their commercial services using mac computer based on their hardware specs. Also note that this is US where apple is quite popular.
 

@@ -85,6 +85,7 @@ To disable SIP, please follow these steps:
 # If you're on Apple Silicon macOS 13.x.x OR newer
 csrutil enable --without fs --without debug --without nvram
 ```
+
 {{< alert >}}
 **Warning!** After disabling SIP on M series Macs, all 3rd party apps that are part of iOS shared program will no longer work on your Mac without SIP.
 {{< /alert >}}

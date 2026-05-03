@@ -41,7 +41,6 @@ Bingo! This must be it! Let's cat `start.sh` which was one line script for execu
 
 > [Virus total analysis](https://www.virustotal.com/gui/file/7034cd646d9c7d2f2add1bdc41b4c12085f526c8876d82e2b1d0965332c8fd45?nocache=1)
 
-
 Luckily it was just a crypto miner and not some ransomware or anything dangerous. Now the problem was that since this was VM user was root. There was no chance to find the culprit base on the author. However, I had a file and knew when it was created based on Linux time. So via the last command. I listed the history of all logged users via ssh, compare the time the file was created with the day of logged users. I had them. Luckily there was no hacker or any outside data leak. This malicious program was installed by someone inside.
 
 So far so good found the file, the culprit, killed the process.

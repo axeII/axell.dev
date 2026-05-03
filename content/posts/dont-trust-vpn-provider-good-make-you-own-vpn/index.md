@@ -44,10 +44,10 @@ Anyway back to my previous question. Why should one use VPN unless it is due to 
 
 Anyway, let's set up our own VPN service. When I was looking for custom solutions I was sure I want to set up a VPN service on the cloud. Because of that, I had found the perfect tool for this -- Algo. What also really is I do recommend reading this blog [post](https://blog.trailofbits.com/2016/12/12/meet-algo-the-vpn-that-works/). Anyway, in short, Algo has many advantages over other services like:
 
-* encryption since algo supports only IKEv2
-* also supports modern vpn protocol wireguard
-* multiplaform (iOS, windows, linux, macos, Android)
-* easy to deploy on cloud
+- encryption since algo supports only IKEv2
+- also supports modern vpn protocol wireguard
+- multiplaform (iOS, windows, linux, macos, Android)
+- easy to deploy on cloud
 
 Algo is written in python and it's available on Github (link below).
 
@@ -55,9 +55,9 @@ Algo is written in python and it's available on Github (link below).
 
 You need only a few things to run this service:
 
-* VPS (cloud service like aws or gcp)
-* install algo on local machine (to deploy on cloud)
-* free time, but it's very easy to deploy (it's task for ~25mins)
+- VPS (cloud service like aws or gcp)
+- install algo on local machine (to deploy on cloud)
+- free time, but it's very easy to deploy (it's task for ~25mins)
 
 ### Step 1: Setup cloud service
 

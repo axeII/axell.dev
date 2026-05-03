@@ -13,7 +13,6 @@ title: "Firewalld doesn't go well with Docker"
 
 Well, while it's a popular tool today, it has some issues with Docker. So if you are like **me** and have activated `firewalld` on the same machine where you host containers using Docker, you might have the same issue as I had.
 
-
 ![meme1](images/image01.jpg)
 
 ## Problem
@@ -23,7 +22,6 @@ When I installed and activated `firewalld` I had a problem -- all Docker contain
 So yeah you running docker and `firewalld` and now all containers aren't able to connect to internet (in case you are building custom ones this can be great issue).
 
 _So how to fix it?_
-
 
 ## Fix
 

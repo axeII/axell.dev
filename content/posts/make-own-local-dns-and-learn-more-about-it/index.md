@@ -27,10 +27,10 @@ In my case, I wanted to setup a DNS **resolver**. And there are few steps how to
 
 First, you need to decide which service  would you like to use. The famouse are:
 
-* dnsmasq
-* bind
-* unbound
-* coredns
+- dnsmasq
+- bind
+- unbound
+- coredns
 
 I went with the `bind`. I'll might try one of these later and measure speed difference in the future.
 
