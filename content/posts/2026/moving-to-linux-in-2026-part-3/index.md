@@ -1,4 +1,5 @@
 ---
+url: "/posts/moving-to-linux-in-2026-part-3/"
 date: 2026-05-03T01:00:00Z
 description: "The tools and tweaks that took my Linux gaming setup to the next level - overclocking, fan control, FSR mods, AI terminal helpers, and more."
 draft: true

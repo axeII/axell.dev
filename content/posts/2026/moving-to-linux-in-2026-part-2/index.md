@@ -1,4 +1,5 @@
 ---
+url: "/posts/moving-to-linux-in-2026-part-2/"
 date: 2026-05-03T01:00:00Z
 description: "How to set up Steam and Proton on Linux, use ProtonDB, and my real experience gaming on CachyOS - including Baldur's Gate 3 and the state of Nvidia GPU support."
 draft: true

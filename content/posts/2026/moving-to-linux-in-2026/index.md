@@ -1,4 +1,5 @@
 ---
+url: "/posts/moving-to-linux-in-2026/"
 date: 2026-05-03T01:00:00Z
 description: "I finally decided to move to Linux and I want to share my experience for anyone thinking about making the switch in 2026."
 draft: true
@@ -11,7 +12,7 @@ series_order: 1
 
 ---
 
-As many others I decided I have enough of Microsoft's random updates and breaking things all the time, telemetry, forced Microsoft products like Teams, OneDrive and also AI everywhere. I simply said enough and although there is sort of hype right now to move to Linux, honestly I was not sure if this is a good choice. I have good experience with Linux on all platforms like servers (honestly Linux is now almost everywhere) but not exactly with desktop - the gaming desktop.
+As many others I decided that I have enough of Microsoft's random updates and breaking things all the time, telemetry, forced Microsoft products like Teams, OneDrive and AI **everywhere**. I simply said enough and although there is sort of hype right now to move to Linux, honestly I was not sure if this is a good choice. I have good experience with Linux on all platforms like servers (honestly Linux is now almost everywhere) but not exactly with desktop - the gaming desktop.
 
 <!-- TODO: Add a personal anecdote about the specific moment you decided to leave Windows. What was the final straw? Was it a broken update? Forced Copilot? Something specific that made you say "that's it"? -->
 
