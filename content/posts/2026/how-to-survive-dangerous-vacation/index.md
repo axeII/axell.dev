@@ -1,4 +1,5 @@
 ---
+url: "/posts/how-to-survive-dangerous-vacation/"
 date: 2026-03-14T01:00:00Z
 description: "A practical guide on how to stay safe, prepared, and calm during a vacation in a dangerous or high-risk destination - based on my real experience of getting stuck in a war zone in the UAE."
 draft: true
