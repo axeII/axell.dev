@@ -1,4 +1,5 @@
 ---
+url: "/posts/how-to-improve-stabity-low-cost-aks/"
 title: How I helped company to improve stability of low-cost AKS clusters
 draft: true
 date: 2025-12-07
