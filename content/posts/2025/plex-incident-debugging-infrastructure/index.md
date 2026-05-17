@@ -22,16 +22,12 @@ When you self‑host, you own both the security and the monitoring. The Plex inc
 My first instinct was to check my monitoring stack to see if there had been any unusual activity on my Plex server. This is exactly why having proper observability in a homelab matters - during incidents, you need answers quickly. Without logs and monitoring, you’re flying blind. Before we continue here is a  quick overview of my setup:
 
 {{< alert >}}
-**Note**: Although home incidents are of course different then the ones at work but it's good to have place where you can practicise these things if you work at IT as developer or SRE.
+**Note**: Although home incidents are of course different then the ones at work but it's good to have place where we can practice these things :)
 {{< /alert >}}
 
 ### Core Components
 
-TODO: make here a  diagram
-<!-- - **Plex Media Server**: Running in Docker containers on Kubernetes
-- **Cloudflare Tunnel**: Eliminates the need for port forwarding
-- **Grafana**: Log aggregation and monitoring dashboards
-- **Tautulli**: Plex-specific monitoring and analytics -->
+![components diagram](images/arch1.png "The no ports is meant here as no standard ports eg 443")
 
 ### Security Measures
 
@@ -44,7 +40,8 @@ TODO: make here a  diagram
 
 I started with my Grafana dashboard, which aggregates logs from all services running on Kubernetes - including Plex. Almost immediately, something looked off: connections were happening regularly between ~3–9 AM. That’s a unlike play time for my friends or family to use my Plex instance.
 
-> Worth noting: there’s a known Cloudflare Tunnel issue where some connections aren’t closed properly (see: <https://github.com/cloudflare/cloudflared/issues/1300>), but the pattern here was too consistent to ignore.
+{{< alert >}} **Note**: there’s a known Cloudflare Tunnel issue where some connections aren’t closed properly (see: <https://github.com/cloudflare/cloudflared/issues/1300>), but the pattern here was too consistent to ignore.
+{{< /alert >}}
 
 The timing was the first red flag. The connections also had a repeatable signature - it almost looked like someone was probing the instance.
 
@@ -86,7 +83,7 @@ This incident taught me a few useful lessons about infrastructure and security:
 - Documentation Matters
 - Monitoring Pays Off
 
-Good monitoring (Grafana stack + Tautulli) made this fast and boring - which is exactly what you want. Without it, I might never have noticed the pattern.
+Good monitoring (Grafana stack + Tautulli) made this fast and boring - which is exactly what you want. Without it, I might never have noticed the pattern. And next pattern can be actually done by malicious actor.
 
 Even simple, harmless configs can age into problems. What started as a fun experiment turned into a forgotten connection that looked suspicious during a review. If we’d documented the server‑to‑server connection, this would have been a 2‑minute check. Write down changes - even the “temporary” ones.
 
